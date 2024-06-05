@@ -42,11 +42,15 @@ OASF3 -> OSSverse: Bid for ASSESSMENT 1!
 
 OASP3 -> OASP3: Evaluate ASSESSEMENT1!
 
-OASP3 -> OASP3: Fetch/Curate BeSEnvironment for ASSESSMENT1! OASP3 -> OASP3: Fetch/Curate BeSPlaybook for ASSESSMENT1!
+OASP3 -> OASP3: Fetch/Curate BeSEnvironment for ASSESSMENT1!
+
+OASP3 -> OASP3: Fetch/Curate BeSPlaybook for ASSESSMENT1!
 
 OASP3 -> OASP3: Perform ASSESSMENT1!
 
-OASP3 -> 0SSverse : Present Proof of Attestation (POA3) for ASSESSMENT1! OASP3 -> OSSVerse: Share/Publish BeSEnvironment/BeSPlaybook for ASSESSMENT1!
+OASP3 -> 0SSverse : Present Proof of Attestation (POA3) for ASSESSMENT1!
+
+OASP3 -> OSSVerse: Share/Publish BeSEnvironment/BeSPlaybook for ASSESSMENT1!
 
 OSSverse -> OSSverse: Verify POAI, POA2, POA3 and validate ASSESSMENT1!
 
