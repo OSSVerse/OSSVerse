@@ -1,6 +1,8 @@
-# OSSVerse (open source Market place)
+# OSSVerse (Open Source Market place)
 
 ## Why an Open source Marketplace..
+
+### State of open source in enterprise.
 
 The widespread adoption of OSS (open source software) across industries has brought immense innovation but also unique security challenges. 
 One of the barriers to OSS adoption is the lack of Trust.
