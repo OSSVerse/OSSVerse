@@ -1,9 +1,8 @@
 # **OSSVerse**
 
-## **Business Context 
+## Business Context 
 
 ## Business Architecture 
-
 
 **Marketplace Services** 
 
