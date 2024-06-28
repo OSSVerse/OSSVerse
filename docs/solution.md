@@ -1,14 +1,4 @@
 
-# Open source Marketplace
-
-# **Key Stakeholders**
-
-**Business** :
-
-**OASP** : Open source assurance service providers
- 
-**Marketplace operator** :
-
 # Solution Architecture
 
 ## Features
