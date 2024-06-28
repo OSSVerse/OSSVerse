@@ -14,6 +14,10 @@
 
 # Communication between BeSlab & OSSVerse
 
+# BeS OSAR 
+
+# BeS Establish provenace & presentation of Proofs
+
 # BeSLab as a BAP
 
 # OSSVerse as a BAP/BPP/BG
