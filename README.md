@@ -1,8 +1,8 @@
-# OSSVerse
+# OSSVerse (open source Market place)
 
-## The enterprise problem
+## Why an Open source Marketplace..
+
 The widespread adoption of OSS (open source software) across industries has brought immense innovation but also unique security challenges. 
-
 One of the barriers to OSS adoption is the lack of Trust.
 Many organizations lack internal expertise to effectively assure and remediate open-source models, creating a demand for external services such as Open-source Assurance Service Providers (OASP).
 Organizations require  timely support for open-source models, datasets, and projects. 
