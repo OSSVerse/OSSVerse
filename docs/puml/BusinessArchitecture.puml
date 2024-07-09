@@ -1,0 +1,16 @@
+@startuml
+
+OASP1 -> PF: on-board OASP1
+PF -> OASP1: create/ update lab mapping
+
+OASP1 -> PF: Register & configure lab attestation
+PF -> Lab: Initiate secure handshake(client hello) TLS/SSL
+Lab -> PF: Server hello(public key certificate)
+PF -> PF: Verify certificate
+PF -> Lab: Request session
+Lab -> PF: Session live
+PF -> PF: Register Lab
+OASP1 -> Lab: OASP can register multiple Lab(As per PF policy)
+
+
+@enduml
