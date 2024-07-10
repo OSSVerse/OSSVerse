@@ -1,10 +1,21 @@
 # **OSSVerse**
 
-## Business Context 
+## 1. Business Context 
 
-## Business Architecture 
+## 1.2 Business Architecture 
 
-**Marketplace Services** 
+1.2.1 **Marketplace Services** 
+
+1.2.1.1 Onboarding :
+   Account Creation:
+   **OASP**
+   Creating an OSSVerse Account and OASP profile for OASP 
+   the Account creation service will register OASP with OSSVerse Registry and update the profile. The OASP profile will have informed related to payments and BAP Seller App (e.g instance of BAP compatible adaptation of a BeSLab )
+   **Business**
+   Creating an OSSVerse Account for a Business 
+ 
+ 1.2.1.2 Search: 
+ 
 
 **OASP Services**
 
@@ -16,7 +27,7 @@
 
 # BeS OSAR 
 
-# BeS Establish provenace & presentation of Proofs
+# BeS Establish provenance & presentation of Proofs
 
 # BeSLab as a BAP
 
