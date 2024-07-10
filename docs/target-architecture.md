@@ -6,12 +6,17 @@
 
 1.2.1 **Marketplace Services** 
 
-1.2.1.1 Onboarding :
-   Account Creation:
+1.2.1.1 Onboarding services :
+   
+   ###***Account Creation:**
+   
    **OASP**
-   Creating an OSSVerse Account and OASP profile for OASP 
-   the Account creation service will register OASP with OSSVerse Registry and update the profile. The OASP profile will have informed related to payments and BAP Seller App (e.g instance of BAP compatible adaptation of a BeSLab )
+   
+   Creating an OSSVerse Account & OASP profile for OASP 
+   The Account creation service will register OASP with OSSVerse Registry and have APIs to update the OASP profile. An OASP profile will have informed related to payments and BAP Seller App end points (e.g instance of BAP compatible adaptation of a BeSLab )
+   
    **Business**
+   
    Creating an OSSVerse Account for a Business 
  
  1.2.1.2 Search: 
