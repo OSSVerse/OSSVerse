@@ -2,7 +2,7 @@
 
 ## 1. Business Context 
 
-OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platform. It is an adaption of ONDC for open source software service delivery . OSSVerse is an adaption of the Beckn Protocol and BeSecure(BeS) for delivering open source software security assurance services and aims to establish an open network of OASPs for Businesses. 
+OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platform. It is an adaption of ONDC for open source software service delivery . OSSVerse is an adaption of the Beckn Protocol and BeSecure(BeS) for delivering open source software security assurance services . OSSVerse aims to establish an open network of OASPs for Businesses that will offer trustworthy and reliable open source software assurance services. 
 
 ## 1.2 Business Architecture 
 
