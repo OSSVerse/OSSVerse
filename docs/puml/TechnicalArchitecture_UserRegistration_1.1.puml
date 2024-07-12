@@ -1,0 +1,20 @@
+@startuml
+
+actor "Bosch_Lab" as Actor
+
+
+Actor -> OSSVerse_Interface: Create Account
+OSSVerse_Interface -> OSSVerse_Registry_Service_MongoDB: Register Actor by calling Registration API(Capture required fileds)
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Search_Engine_OpenSearch: Successfull regstry will Sync data to OSSVerse_Search engine
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Log_Analyzer: log in case of success or failure
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Interface: Actor registered
+
+Actor -> OSSVerse_Interface: Subscribe to Category of managed services available(OASP, Buyer, Seller)
+OSSVerse_Interface -> OSSVerse_Registry_Service_MongoDB: Map Actor to subscribed managed services
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Search_Engine_OpenSearch: Sync data to OSSVerse_Search engine
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Log_Analyzer: log in case of success or failure
+OSSVerse_Registry_Service_MongoDB -> OSSVerse_Interface: Successfully Subscribed to requested managed services
+
+
+
+@enduml
