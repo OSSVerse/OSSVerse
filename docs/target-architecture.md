@@ -2,6 +2,8 @@
 
 ## 1. Business Context 
 
+OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising for multiple platform. It is an adaption of ONDC for open source software service delivery and an adaption of the Beckn Protocol and BeSecure for open source security assurance services.
+
 ## 1.2 Business Architecture 
 
 1.2.1 **Marketplace Services** 
@@ -20,21 +22,37 @@
    Creating an OSSVerse Account for a Business 
  
  1.2.1.2 Search: 
- 
+    **Business**
+    a) A Business who is a consumer of Open source
+    Searching for OASP , open source component and open source support services like 
+    1. Open source assessment & Attestation services (Subscription based)
+    2. Open source remediation Services (On Demand)
+    3. Open source feature enhancement Services (On Demand)
+
+    b) A Business who is a Producer or Distributor of Open source
+    Searching for an OASP for an identified open source component for certification (On Demand)
 
 **OASP Services**
 
+  
 **Business Support Services**
 
 # Technical Architecture
 
 # Communication between BeSlab & OSSVerse
 
-# BeS OSAR 
+# OSSVerse as A BAP/BG/Open Network Registry
 
-# BeS Establish provenance & presentation of Proofs
+# OASP as BPP 
 
-# BeSLab as a BAP
+  Extending BeSLab as a BPP
 
-# OSSVerse as a BAP/BPP/BG
+# BeS : Establish provenance & presentation of Proofs
+  
+# BeS : OSAR 
+
+
+
+
+
 
