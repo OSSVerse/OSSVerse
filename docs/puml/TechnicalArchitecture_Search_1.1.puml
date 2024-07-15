@@ -1,6 +1,0 @@
-@startuml
-
-actor "Bosch_Lab" as Actor
-
-
-@enduml
