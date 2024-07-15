@@ -1,0 +1,21 @@
+@startuml
+
+skin rose
+
+actor Buyer as Buyer
+
+Buyer -> OSSVerse.com: Login
+Buyer -> OSSVerse.com: Search catalog
+OSSVerse.com -> "Network Gateway": /Search
+"Network Gateway" -> "Network Registry": verify signature, context & msg
+"Network Gateway" -> OSSVerse.com: ACK
+
+"Network Gateway" -> BPPs: /Search
+BPPs -> "Network Gateway": ACK
+BPPs -> "Network Gateway": /On_Search - callback
+"Network Gateway" -> BPPs: ACK
+"Network Gateway" -> "Network Gateway": Result Aggregation of all BPPs
+"Network Gateway" -> OSSVerse.com: /On_Search - callback
+OSSVerse.com -> "Network Gateway": ACK
+
+@enduml
