@@ -2,7 +2,7 @@
 
 skin rose
 actor Greenhill as Greenhill
-Greenhill -> Greenhill: Greenhill plans to subscribe to OSSVerse as a Business Platform Provider - BPP
+Greenhill -> Greenhill: Greenhill plans to subscribe to OSSVerse as OSS producer
 
 
 Lab_O31E -> Lab_O31E: Lab_O31E - compliant with the Beckn BPP protocol
