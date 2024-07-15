@@ -8,8 +8,9 @@ Tokomo -> Tokomo: To become a buyer on OSSVerse, Tokomo needs to Compliant with 
 
 Tokomo -> OSSVerseRegistry: HTTPS - Tokomo initiate the registration process using Registry API( NO UI involved ) with Public IP - and share info like (BAP details, BAP offerings, BAP API end-points)
 OSSVerseRegistry -> Tokomo: Response with "Subscribed" success, ID, Key and other relevant info required for further transaction
+OSSVerseRegistry -> OSSVerseRegistry: Persist meta data
 
-Tokomo -> OSSVerse: Tokomo comes to "OSSVerse Marketplace UI" and start using the platform to buys the services & offerings provided by seller Apps
+Tokomo -> OSSVerse_Marketplace: Tokomo comes to "OSSVerse Marketplace UI" and start using the platform using keys received from post "successfull registration" to buys the services & offerings provided by seller Apps
 
 
 @enduml

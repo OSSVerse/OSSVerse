@@ -3,13 +3,20 @@
 skin rose
 
 actor Tokomo as Tokomo
-Tokomo -> Tokomo: Tokomo Plans to on-board on OSSVerse as a buyer
-Tokomo -> Tokomo: To become a buyer on OSSVerse, Tokomo needs to Compliant with BAP protocol
+Tokomo -> Tokomo: Tokomo is now a BAP on the OSSVerse Marketplace after successful BAP registration.
 
-Tokomo -> OSSVerseRegistry: HTTPS - Tokomo initiate the registration process using Registry API( NO UI involved ) with Public IP - and share info like (BAP details, BAP offerings, BAP API end-points)
-OSSVerseRegistry -> Tokomo: Response with "Subscribed" success, ID, Key and other relevant info required for further transaction
+Tokomo -> OSSVerse_Marketplace: Login to platform
+Tokomo -> OSSVerse_Marketplace: Search for an OSS & Offerings
 
-Tokomo -> OSSVerse_Marketplace: Tokomo comes to "OSSVerse Marketplace UI" and start using the platform using keys received from post "successfull registration" to buys the services & offerings provided by seller Apps
+OSSVerse_Marketplace -> OSSVerse_Gateway: sends a search query to the gateway, specifying the desired product or service, location, and other preferences
+OSSVerse_Gateway -> OSSVerse_Registry: The gateway queries the registry to identify potential BPPs matching the search criteria
 
+OSSVerse_Gateway-> Lab_O31E: The gateway forwards the search request to the identified BPPs
+Lab_O31E -> OSSVerse_Gateway: All BPPs Response data comes to gateway
+OSSVerse_Gateway -> OSSVerse_Gateway: Gateway Aggregate the results
+
+OSSVerse_Gateway -> OSSVerse_Marketplace: Aggregates responses from BPPs and returns them to the OSSVerse_Marketplace
+
+Tokomo -> OSSVerse_Marketplace: Verify the response and generate further events
 
 @enduml
