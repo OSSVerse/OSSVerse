@@ -43,6 +43,8 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 # OSSVerse as A BAP/BG/Open Network Registry
 
+![Component Diagram](/docs/images/component-diagram.png)
+
 # OASP as BPP 
 
   Extending BeSLab as a BPP
