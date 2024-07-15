@@ -2,20 +2,26 @@
 
 skin rose
 
-actor Buyer as Buyer
+title "Sequence diagram - OASPs service Discovery"
+
+actor "OSSConsumer" as Buyer
+
 
 Buyer -> OSSVerse.com: Login
 Buyer -> OSSVerse.com: Search catalog
 OSSVerse.com -> "Network Gateway": /Search
+database "Network Registry"
 "Network Gateway" -> "Network Registry": verify signature, context & msg
 "Network Gateway" -> OSSVerse.com: ACK
 
-"Network Gateway" -> BPPs: /Search
-BPPs -> "Network Gateway": ACK
-BPPs -> "Network Gateway": /On_Search - callback
-"Network Gateway" -> BPPs: ACK
-"Network Gateway" -> "Network Gateway": Result Aggregation of all BPPs
+"Network Gateway" -> OASPs: /Search
+OASPs -> "Network Gateway": ACK
+OASPs -> "Network Gateway": /On_Search - callback
+"Network Gateway" -> OASPs: ACK
+"Network Gateway" -> "Network Gateway": Result Aggregation of all OASPs
 "Network Gateway" -> OSSVerse.com: /On_Search - callback
 OSSVerse.com -> "Network Gateway": ACK
+
+OSSVerse.com -> Buyer: Display OASPs offerings
 
 @enduml
