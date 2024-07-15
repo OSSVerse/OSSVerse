@@ -11,3 +11,5 @@ OSSVerse.com -> "Network Registry": Registration Request
 "Network Registry" -> "Platform Operator": Approval request
 "Platform Operator" -> "Network Registry": Approve
 "Network Registry" -> OASP: Subscribed
+
+@enduml
