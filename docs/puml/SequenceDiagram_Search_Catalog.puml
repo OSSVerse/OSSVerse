@@ -6,21 +6,24 @@ title "Sequence diagram - OASPs service Discovery"
 
 actor "OSSConsumer" as Buyer
 
-
-Buyer -> OSSVerse.com: Login
-Buyer -> OSSVerse.com: Search catalog
+Buyer -> OSSVerse.com: Search catalogue
 OSSVerse.com -> "Network Gateway": /Search
-database "Network Registry"
-"Network Gateway" -> "Network Registry": verify signature, context & msg
+database "OASP Network Registry"
+"Network Gateway" -> "OASP Network Registry": lookup
+"OASP Network Registry" -> "Network Gateway": 200
 "Network Gateway" -> OSSVerse.com: ACK
 
-"Network Gateway" -> OASPs: /Search
-OASPs -> "Network Gateway": ACK
-OASPs -> "Network Gateway": /On_Search - callback
-"Network Gateway" -> OASPs: ACK
-"Network Gateway" -> "Network Gateway": Result Aggregation of all OASPs
+"Network Gateway" -> "OASP(1)": /Search
+"Network Gateway" -> "OASP(2)": /Search
+"Network Gateway" -> "OASP(n)": /Search
+
+"OASP(1)" -> "Network Gateway": /On_Search - callback
+"OASP(2)" -> "Network Gateway": /On_Search - callback
+"OASP(n)" -> "Network Gateway": /On_Search - callback
+
+"Network Gateway" -> "Network Gateway": Catalogue Aggregation of all OASPs
 "Network Gateway" -> OSSVerse.com: /On_Search - callback
-OSSVerse.com -> "Network Gateway": ACK
+
 
 OSSVerse.com -> Buyer: Display OASPs offerings
 
