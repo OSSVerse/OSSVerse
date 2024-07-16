@@ -1,0 +1,43 @@
+@startuml
+
+skin rose
+
+title Assurance Service Catalogue Discovery Sequence Diagram
+
+actor "Toyota" as OSC
+
+OSC -> OSSVerse : Login
+OSC -> OSSVerse : Explore marketplace
+
+entity "OSSVerse Network" as ONR
+database "Assurance Provider Registry" as APR
+
+OSSVerse -> ONR : /search
+ONR -> APR : "Query for releveant OASPs"
+APR -> ONR : "OASP List"
+ONR -> OSSVerse : ACK
+
+ONR -> Tocomo : /search 
+Tocomo -> ONR : ACK
+
+Tocomo -> ONR : /on_search
+ONR -> Tocomo : ACK
+
+ONR -> GreenHill : /search
+GreenHill -> ONR : ACK
+
+GreenHill -> ONR : /on_search
+ONR -> GreenHill : ACK 
+
+ONR -> OpenFort : /search
+OpenFort -> ONR : ACK
+
+OpenFort -> ONR : /on_search
+ONR -> OpenFort : ACK 
+
+ONR -> OSSVerse : /on_search (Catalogue discovery callback)
+OSSVerse -> ONR : ACK
+
+OSSVerse -> OSC : Assurance Service Catalogue
+
+@enduml
