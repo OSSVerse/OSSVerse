@@ -9,7 +9,11 @@ OSSVerse.com -> "Network Registry": Registration Request
 
 
 "Network Registry" -> "Platform Operator": Approval request
+"Platform Operator" -> "Platform Operator": Validate & Verify
 "Platform Operator" -> "Network Registry": Approve
-"Network Registry" -> "Network Participants": Subscribed
+
+"Network Registry" -> "OSSVerse.com": Subscribed
+"OSSVerse.com" -> "Network Participants": Present Subscription Details
+"Network Registry" -> "Network Participants": Subscription confirmation
 
 @enduml
