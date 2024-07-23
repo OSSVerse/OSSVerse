@@ -1,0 +1,55 @@
+@startuml
+
+title Component Diagram - OSSVerse Marketplace
+
+skin rose
+
+left to right direction
+
+package "OSSVerse" {
+  component [Buyer UI] as comp1
+  component [Buyer App] as comp2
+  component [Protocol Server (BAP)] as comp3
+}
+"Automotive Company" --> comp1
+comp1 -- comp2
+comp2 -- comp3
+
+package "Open Network" {
+  component [Beckn Gateway] as comp4
+  database [Network Registry] as comp5
+}
+comp4 -- comp5
+
+package "Tocomo - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp6
+  component [Seller App] as comp7
+  component [Seller UI] as comp8
+}
+comp6 -- comp7
+comp7 -- comp8
+comp8 <-- "Tocomo Lab"
+
+package "GreenHill - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp9
+  component [Seller App] as comp10
+  component [Seller UI] as comp11
+}
+comp9 -- comp10
+comp10 -- comp11
+comp11 <-- "GreenHill Lab"
+
+package "OpenFort - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp12
+  component [Seller App] as comp13
+  component [Seller UI] as comp14
+}
+comp12 -- comp13
+comp13 -- comp14
+comp14 <-- "OpenFort Lab"
+
+comp3 -- comp4
+comp4 -- comp6
+comp4 -- comp9
+comp4 -- comp12
+@enduml
