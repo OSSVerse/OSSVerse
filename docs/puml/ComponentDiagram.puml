@@ -7,49 +7,72 @@ skin rose
 left to right direction
 
 package "OSSVerse" {
-  component [Buyer UI] as comp1
+  component [Store Frontend] as comp1
   component [Buyer App] as comp2
   component [Protocol Server (BAP)] as comp3
+  component [Accounts / Billing / Payment] as comp21
+  comp1 -- comp2
+  comp2 -- comp3
+  comp2 -- comp21
 }
+
 "Automotive Company" --> comp1
-comp1 -- comp2
-comp2 -- comp3
 
 package "Open Network" {
+  component [Network Frontend] as comp22
   component [Beckn Gateway] as comp4
   database [Network Registry] as comp5
+  comp3 -- comp4
+  comp4 -- comp5
+  comp22 -- comp5
 }
-comp4 -- comp5
 
 package "Tocomo - Assurance Service Provider" {
   component [Protocol Server (BPP)] as comp6
-  component [Seller App] as comp7
-  component [Seller UI] as comp8
+  package "Tocomo BeSLab" {
+    component [Seller App] as comp7
+    component [Seller UI] as comp8
+    component [BeSLighthouse] as comp9
+    database "Lab Repository" as comp10
+    comp8 <-- "Tocomo Lab"
+    "Tocomo Lab" --> comp9
+    comp9 -- comp10
+  }
+  comp4 -- comp6
+  comp6 -- comp7
+  comp7 -- comp8
 }
-comp6 -- comp7
-comp7 -- comp8
-comp8 <-- "Tocomo Lab"
 
 package "GreenHill - Assurance Service Provider" {
-  component [Protocol Server (BPP)] as comp9
-  component [Seller App] as comp10
-  component [Seller UI] as comp11
+  component [Protocol Server (BPP)] as comp11
+  package "GreenHill BeSLab" {
+    component [Seller App] as comp12
+    component [Seller UI] as comp13
+    component [BeSLighthouse] as comp14
+    database "Lab Repository" as comp15
+    comp13 <-- "GreenHill Lab"
+    "GreenHill Lab" --> comp14
+    comp14 -- comp15
+  }
+  comp4 -- comp11
+  comp11 -- comp12
+  comp12 -- comp13
 }
-comp9 -- comp10
-comp10 -- comp11
-comp11 <-- "GreenHill Lab"
 
 package "OpenFort - Assurance Service Provider" {
-  component [Protocol Server (BPP)] as comp12
-  component [Seller App] as comp13
-  component [Seller UI] as comp14
+  component [Protocol Server (BPP)] as comp16
+  package "OpenFort BeSLab" {
+    component [Seller App] as comp17
+    component [Seller UI] as comp18
+    component [BeSLighthouse] as comp19
+    database "Lab Repository" as comp20
+    comp18 <-- "OpenFort Lab"
+    "OpenFort Lab" --> comp19
+    comp19 -- comp20
+  }
+  comp4 -- comp16
+  comp16 -- comp17
+  comp17 -- comp18
 }
-comp12 -- comp13
-comp13 -- comp14
-comp14 <-- "OpenFort Lab"
 
-comp3 -- comp4
-comp4 -- comp6
-comp4 -- comp9
-comp4 -- comp12
 @enduml
