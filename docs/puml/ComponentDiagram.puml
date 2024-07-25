@@ -25,7 +25,7 @@ package "OSSVerse" {
 
 "Automotive Company" --> comp1
 "Marketplace operator" --> comp26
-"New Seller/OASP (Account creation/Registration) --> comp25
+"New Seller/OASP (Account creation/Registration)" --> comp25
 
 
 package "Open Network" {
