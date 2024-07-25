@@ -8,12 +8,15 @@ left to right direction
 
 package "OSSVerse" {
   component [Store Frontend] as comp1
-  component [Buyer App] as comp2
+  component [OSSVerse App(Buyer)] as comp2
+  component [OSSVerse App(Seller)] as comp25
+  component [OSSVerse App(operator)] as comp26
   component [Protocol Server (BAP)] as comp3
   component [Accounts / Billing / Payment] as comp21
   component [Certification Service] as comp23
   component [Open Source Software Analytics and Cost Benchmarking Service (OSSACB)] as comp24
 
+  comp1 -- comp24
   comp1 -- comp2
   comp2 -- comp3
   comp2 -- comp21
@@ -21,6 +24,9 @@ package "OSSVerse" {
 }
 
 "Automotive Company" --> comp1
+"Marketplace operator" --> comp26
+"New Seller/OASP (Account creation/Registration) --> comp25
+
 
 package "Open Network" {
   component [Network Frontend] as comp22
