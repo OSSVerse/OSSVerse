@@ -34,6 +34,27 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 **OASP Services**
 
+1. **Assessment/Assurance Service**:
+   1. X checklist for OSS with pointer to Standard check list e.g of checklist
+
+      1. OSS Pol, Mol or TDol are
+         1. SAST checks
+         2. DAST checks
+         3. Compliance checks
+         4. Industry specific checks
+         5. Other checks..
+      2. OSAR Generation and Proof of Attestation as evidence to be shared
+
+2. **Validation & Verification Service**: (validated & verify if attestation has been done in line with the acceptable OSSVerse OASP Assessment Standard)
+
+      1. Check BeS Environments (Exists/Linting)
+      2. Check Playbooks w.rt each Check part of Assessment claimed.
+      3. OSAR(Open source assessment/attestation Report) updated with Proof of Verfication & Validation as evidence to be shared (This could be inline with an accept standard like Attestation standard like CycloneDX Attestation standard)
+
+3. **Remediation Service**:
+4. **Pentesting Service**:
+5. **Feature Addition**:
+6. **TAVOSS Version & Certification Service**: (Certification with or without/Distribution?/hosting?)
   
 **Business Support Services**
 
