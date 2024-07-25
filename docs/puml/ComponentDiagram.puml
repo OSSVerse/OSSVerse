@@ -12,7 +12,7 @@ package "OSSVerse" {
   component [Protocol Server (BAP)] as comp3
   component [Accounts / Billing / Payment] as comp21
   component [Certification Service] as comp23
-  component [open source software analytics and cost benchmarking service (OSSACB)] as comp24
+  component [Open Source Software Analytics and Cost Benchmarking Service (OSSACB)] as comp24
 
   comp1 -- comp2
   comp2 -- comp3
