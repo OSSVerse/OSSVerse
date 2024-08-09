@@ -34,14 +34,25 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 ## OASP Services
 
-1. **Assurance & Assessment Service:** Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. 
+**1. Assurance & Assessment Service:** Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. 
 
+**1.1 Assurance Levels & Services**
 
- **Open-Source Software (OSS) Assurance Service Checklist**
+Based on the depth and scope of the assessment required, different assurance levels are offered, each encompassing specific checks and activities:
+
+| Assurance Level | Description                                                             | Key Emphasis/Requirement                                                                                | Example Checks/Activities                                                                        |
+|----------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| 0              | No Assurance                                                         | No formal assessment                                                                                  | - Project information gathering                                                                 |
+| 1              | Basic Assurance                                                       | Basic automated security checks, with proof of attestation                                       | - SAST (static code analysis)                                                              |
+| 2              | Standard Assurance                                                    | Everything in Basic (including proof of attestation) + Dependency & license compliance checks           | - Dependency vulnerability checks <br> - License compliance audit <br>- SAST                      |
+| 3              | Comprehensive Assurance                                               | Everything in Standard (including proof of attestation) + Dynamic and manual security review          | - Dynamic application security testing (if applicable) <br> - Expert code review (optional) |
+| 4              | Automotive-Grade Assurance                                          | Everything in Comprehensive (including proof of attestation) + Industry-specific safety and security checks  | - Adherence to ISO 26262 and other automotive standards. <br> - Hardware-in-the-loop (HIL) testing. <br> - Fuzzing and symbolic execution. |
+
+**1.2 Open-Source Software (OSS) Assurance Service Checklist**
 
 This checklist outlines the key steps involved in assessing the security, quality, and compliance of open-source software, especially in the automotive domain.
 
-**1.1 Standard Checks**
+**1.2.1 Standard Checks**
 
 | Assurance Check Category   | Subcategory (Intent)                     | BeS Env Name                             | Example Playbook Name                                                   | Open-Source Tools                                             |
 | -------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
@@ -51,7 +62,7 @@ This checklist outlines the key steps involved in assessing the security, qualit
 | Licensing & Compliance    | License Compliance Audit                | `besman-legal_compliance-env.sh`               | `besman-license_compliance-fossology-playbook.sh`               | FOSSology, LicenseFinder, ScanCode, Toolkit                   |
 | Code Quality Analysis     | Code Quality Assessment                 | `besman-code_analysis-env.sh`                   | `besman-code_quality-sonarqube-playbook.sh`                    | SonarQube (Community Edition), PMD, Checkstyle, FindBugs |
 
-**1.2 Automotive-Specific Checks**
+**1.2.2 Automotive-Specific Checks**
 
 | Assurance Check Category | Subcategory (Intent) | BeS Env Name | Example Playbook Name | Open-Source Tools |
 |---|---|---|---|---|
