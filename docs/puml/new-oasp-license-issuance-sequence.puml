@@ -1,0 +1,51 @@
+@startuml
+participant "AssureOpen" as Client
+participant OSSVerse 
+participant "Beckn Network" as Beckn
+participant Tocomo
+participant Greenhill
+participant Openfort
+
+Tocomo -> Beckn: Registers & Publishes Catalog
+Greenhill -> Beckn: Registers & Publishes Catalog
+Openfort -> Beckn: Registers & Publishes Catalog
+
+Client -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level)
+Client -> OSSVerse: Provides Info (MoI, BeS Lab Details, OSAR, Attestation)
+OSSVerse -> Beckn: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Client's Request
+
+alt PoI Match Found & Assurance Level 1 or 2
+    OSSVerse -> Tocomo: Assigns Assessment (if PoI matches)
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> Tocomo: Performs Assessment & Evaluation
+    Tocomo -> OSSVerse: Submits Attested OSAR Report
+    OSSVerse -> Client: Evaluates OSAR & Grants License
+    OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
+    OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+end
+
+alt PoI Match Found & Assurance Level 3+
+    OSSVerse -> OSSVerse: Publishes Bid Invitation
+    Tocomo -> OSSVerse: Responds to Bid
+    Greenhill -> OSSVerse: Responds to Bid
+    Openfort -> OSSVerse: Responds to Bid
+    OSSVerse -> OSSVerse: Evaluates Bids & Selects 3 OASPs
+    OSSVerse -> Tocomo: Selects for Assessment
+    OSSVerse -> Greenhill: Selects for Assessment
+    OSSVerse -> Openfort: Selects for Assessment
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> Tocomo: Performs Assessment & Evaluation
+    Greenhill -> Greenhill: Fetches/Curates BeS Env & Playbook
+    Greenhill -> Greenhill: Performs Assessment & Evaluation
+    Openfort -> Openfort: Fetches/Curates BeS Env & Playbook
+    Openfort -> Openfort: Performs Assessment & Evaluation
+    Tocomo -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Greenhill -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Openfort -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    OSSVerse -> OSSVerse: Evaluates OSARs
+    OSSVerse -> Client: Grants License (after evaluating OSARs) 
+    OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
+    OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+end
+@enduml
