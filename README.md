@@ -54,3 +54,13 @@ OSS Producers:
 6. Security Experts & Freelancers
     - Offering open-source security assessments and support services
 
+# FAQs on Registering and Evaluating OASPs in OSSVerse
+
+##1. How do I register the first OASP when there are no OASPs registered?##
+
+Any organization or business interested in becoming an Open Source Assurance Provider (OASP) can initiate the registration process to join the OSSVerse open network. However, actual participation as an OASP is contingent upon the issuance of an OASP license. The process of registration effectively refers to the application for an OASP license. OSSVerse facilitates the issuance of OASP licenses for specific Projects of Interest (PoI) or Models of Interest (MoI) or their categories through dedicated OASP License Issuance Services. Initially, this service is provided directly by OSSVerse but may later be delegated to other ecosystem partners within the OSSVerse network who specialize in OASP license issuance and renewals.
+To encourage organizations that have developed their own Open Source Software (OSS) projects to become OASPs for the OSS they have curated or seeded, OSSVerse highlights the potential monetary benefits. These benefits include remuneration for providing OSS security assurance and other support services. Additionally, OSSVerse incentivizes these organizations to engage in Assessment & Attestation services for technology PoIs and MoIs similar to their own, enhancing the verification and validation process within the network.
+
+##2.How is the evaluation done when there are no OASPs with the capability to assess, despite having many registered OASPs?##
+
+In situations where the registered OASPs do not possess the skills or Projects of Interest (PoI) or Models of Interest (MoI) matching those required by a prospective OASP, the selection process becomes more open. The opportunity to curate a new BeSecure (BeS) Environment & BeS Playbook and to obtain an OASP license will be awarded to the entity that can do so at the lowest cost. It is essential for the OASP to indicate their openness to projects or models outside their current PoI and MoI and to apply for an OASP License for the new PoI or MoI as part of their service request. The additional costs associated with obtaining an OASP license can either be included in the service request or covered by the aspiring OASP. This approach ensures that even when existing OASPs lack certain capabilities, there remains a pathway for new and capable entities to join the OSSVerse as OASPs, thereby maintaining the network's growth and diversity.
