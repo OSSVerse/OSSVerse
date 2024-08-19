@@ -20,9 +20,14 @@ alt PoI Match Found & Assurance Level 1 or 2
     Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
     Tocomo -> Tocomo: Performs Assessment & Evaluation
     Tocomo -> OSSVerse: Submits Attested OSAR Report
-    OSSVerse -> Client: Evaluates OSAR & Grants License
-    OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
-    OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+    OSSVerse -> OSSVerse: Evaluates OSAR
+    alt OSAR is Satisfactory
+        OSSVerse -> Client: Evaluates OSAR & Grants License
+        OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
+        OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+    else OSAR is Not Satisfactory
+        OSSVerse -> Client: Further Action Required (OSAR highlights areas for improvement)
+    end
 end
 
 alt PoI Match Found & Assurance Level 3+
@@ -44,8 +49,13 @@ alt PoI Match Found & Assurance Level 3+
     Greenhill -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
     Openfort -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
     OSSVerse -> OSSVerse: Evaluates OSARs
-    OSSVerse -> Client: Grants License (after evaluating OSARs) 
-    OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
-    OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+
+    alt Sufficient Satisfactory OSARs (Quorum Met)
+        OSSVerse -> Client: Grants License (after evaluating OSARs) 
+        OSSVerse -> OSSVerse: Initiates Onboarding Process for AssureOpen as OASP
+        OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+    else Insufficient Satisfactory OSARs (Quorum Not Met)
+        OSSVerse -> Client: Further Action Required (Some OSARs highlight areas for improvement or need additional assessments)
+    end
 end
 @enduml
