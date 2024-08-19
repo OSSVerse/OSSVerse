@@ -1,0 +1,79 @@
+@startuml
+participant "AssureOpen" as Client
+participant OSSVerse 
+participant "Beckn Network" as Beckn
+participant Tocomo
+participant Greenhill
+participant Openfort
+
+Tocomo -> Beckn: Registers & Publishes Catalog
+Greenhill -> Beckn: Registers & Publishes Catalog
+Openfort -> Beckn: Registers & Publishes Catalog
+
+Client -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level)
+Client -> OSSVerse: Provides Info (MoI, BeS Lab Details, OSAR, Attestation)
+OSSVerse -> Beckn: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Client's Request
+
+alt No OASP with Matching PoI & Assurance Level 1 or 2
+    OSSVerse -> OSSVerse: Publishes Open Call for New OASP (with Lowest Cost Criteria)
+    NewOASP -> OSSVerse: Applies for OASP License (with new PoI/MoI)
+
+    alt New OASP Awarded License
+        OSSVerse -> NewOASP: Provides BeS Env & Playbook
+        NewOASP -> NewOASP: Fetches/Curates BeS Lab Env & Playbook
+        NewOASP -> NewOASP: Performs Assessment & Evaluation
+        NewOASP -> OSSVerse: Submits Attested OSAR Report
+        OSSVerse -> OSSVerse: Evaluates OSAR
+        alt OSAR is Satisfactory
+            OSSVerse -> OSSVerse: Issues License (internal) to NewOASP
+            OSSVerse -> NewOASP: Grants OASP License & Onboards
+            OSSVerse -> Beckn: Updates OASP Status for PoI (NewOASP now listed)
+            OSSVerse -> OSSVerse: Issues Certificate (internal) to Client
+            OSSVerse -> Client: Grants Certificate (Trusted & Certified OSS)
+            alt Client Wants to Become OASP
+                OSSVerse -> OSSVerse: Issues License (internal) to Client
+                OSSVerse -> Client: Onboards as OASP
+                OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+            end 
+        else OSAR is Not Satisfactory
+            OSSVerse -> Client: Further Action Required (OSAR highlights areas for improvement)
+        end
+    end
+end
+
+alt No OASP with Matching PoI & Assurance Level 3+
+    OSSVerse -> OSSVerse: Publishes Open Call for New OASPs (Multiple, with Lowest Cost Criteria)
+    NewOASPs -> OSSVerse: Apply for OASP License (with new PoI/MoI)
+
+    alt New OASPs Awarded License
+        loop 3 times
+            OSSVerse -> NewOASP: Provides BeS Env & Playbook
+            NewOASP -> NewOASP: Fetches/Curates BeS Lab Env & Playbook
+            NewOASP -> NewOASP: Performs Assessment & Evaluation
+            NewOASP -> OSSVerse: Submits Attested OSAR Report
+            OSSVerse -> OSSVerse: Evaluates OSAR
+            alt OSAR is Satisfactory
+                OSSVerse -> NewOASP: Grants OASP License & Onboards
+                OSSVerse -> Beckn: Updates OASP Catalog (NewOASP now listed)
+            else OSAR is Not Satisfactory
+                OSSVerse -> NewOASP: Rejects Application (OSAR indicates project doesn't meet standards)
+            end
+        end
+
+        OSSVerse -> OSSVerse: Checks if Quorum of 3 OASPs is Met
+
+        alt Quorum Met
+            OSSVerse -> OSSVerse: Issues Certificate (internal) to Client
+            OSSVerse -> Client: Grants Certificate (Trusted & Certified OSS) 
+            alt Client Wants to Become OASP
+                OSSVerse -> OSSVerse: Issues License (internal) to Client
+                OSSVerse -> Client: Onboards as OASP
+                OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+            end
+        else Quorum Not Met
+            OSSVerse -> OSSVerse: Continues Open Call or Explores Other Options
+        end
+    end
+end
+@enduml
