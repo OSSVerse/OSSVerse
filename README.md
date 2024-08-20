@@ -64,3 +64,19 @@ To encourage organizations that have developed their own Open Source Software (O
 ## 2.How is the evaluation done when there are no OASPs with the capability to assess, despite having many registered OASPs?
 
 In situations where the registered OASPs do not possess the skills or Projects of Interest (PoI) or Models of Interest (MoI) matching those required by a prospective OASP, the selection process becomes more open. The opportunity to curate a new BeSecure (BeS) Environment & BeS Playbook and to obtain an OASP license will be awarded to the entity that can do so at the lowest cost. It is essential for the OASP to indicate their openness to projects or models outside their current PoI and MoI and to apply for an OASP License for the new PoI or MoI as part of their service request. The additional costs associated with obtaining an OASP license can either be included in the service request or covered by the aspiring OASP. This approach ensures that even when existing OASPs lack certain capabilities, there remains a pathway for new and capable entities to join the OSSVerse as OASPs, thereby maintaining the network's growth and diversity.
+
+## 3. What happens when an OSAP is not available with a POI and applies for OASP?
+
+When an OSAP without a Proof of Identity (POI) applies for an Open Source Assurance Provider (OASP) status, they must first publish an Open Source Assurance Report (OSAR) and obtain a TAVOSS Certificate issued by OSSVerse. The TAVOSS Certificate serves as proof of attestation by one or more OASPs, based on the OSAR report. For new projects or categories, BeSEnvironment & BeSPlaybooks need to be curated and published onto the marketplace BeSEnv & BeS Playbook Repos. The client, if aspiring to become an OASP, will receive the license in addition to the TAVOSS certificate, contingent on the attested report.
+
+## 4. Can Assurance Levels be tied to the quorum of Assessment?
+
+Yes, Assurance Levels can potentially be tied to the quorum of Assessment. For instance, a client may opt for Assurance Level 1-2, which could be certified by a single OSAP. For Assurance Level 3, a quorum of 3 OSAPs would be required. However, the decision to tie assurance levels to the quorum has been postponed for future consideration. The certificate issued by OSSVerse is a proof of attestation by an OASP and does not directly reflect the quality of the Open Source Software (OSS). It indicates that the OASP has validated the BeS Environment & BeSPlaybooks for the project.
+
+## 5. What happens if an OSAR is unsatisfactory?
+
+An unsatisfactory OSAR can result from either inadequate assessment or inherent problems within the project. In the case of inadequate assessment, neither a license nor a TAVOSS certificate will be issued. If the issue lies with inherent problems in the project, a license may still be granted, but not the TAVOSS certificate. This differentiation ensures that only projects meeting certain standards receive full certification.
+
+## 6. What is the process for issuing a TAVOSS Certification?
+
+The issuance of a TAVOSS Certification is the final step in the process, conducted by the OSSVerse Certification service. This step comes after establishing the validity of all proofs submitted by OASPs, either individually or as part of a quorum (i.e., multi-party attestation). The certification is a testament that the OASP has validated the BeS Environment & BeSPlaybooks for the project, and that the execution and verification of the playbooks in the OSAR have been satisfactorily completed.
