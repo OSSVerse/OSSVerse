@@ -1,7 +1,7 @@
 @startuml
-participant "AssureOpen" as Client
+participant "Business-AssureOpen" as Client
 participant OSSVerse 
-participant "Beckn Network" as Beckn
+participant "OSSVerse Open Network" as Beckn
 participant Tocomo
 participant Greenhill
 participant Openfort
