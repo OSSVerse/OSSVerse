@@ -102,3 +102,29 @@ A TAVOSS Certificate is issued by OSSVerse once the proof of attestation, which 
 ## Are there any plans to evolve the format of the OSAR?
 
 Yes, there are future plans to make the OSAR's output format compliant with an open attestation standard, such as the CycloneDX Attestation standard. This initiative aims to standardize the format for broader acceptance and interoperability.
+
+# FAQ: Onboarding and Licensing Process in OSSVerse with Emphasis on Proof of Assessment/Attestation of OSAR
+
+## Is it necessary for an OASP to be TAVOSS certified to onboard onto OSSVerse? 
+
+No, an Open Source Assurance Provider (OASP) does not need to be TAVOSS certified to onboard onto OSSVerse. An OASP can cater to Assurance Level 1-2 by conducting minimal assessments and providing Proof of Assessment/Attestation of OSAR. TAVOSS certification is applicable to the OSSProject itself, not the OASP. An OASP receives a license for a specific OSSProject or a category of OSSProjects within OSSVerse.
+
+## Can an OASP cater only to lower assurance levels without TAVOSS certification?
+
+Yes, an OASP can focus exclusively on Assurance Level 1-2 without the need for TAVOSS certification. For these levels, the OASP is required to conduct necessary assessments and provide Proof of Assessment/Attestation of OSAR.
+
+## How does an OSSProject obtain TAVOSS certification? 
+
+An OSSProject is awarded TAVOSS Certification by OSSVerse after the OSSVerse Certifying Service validates the Proof of Assessment/Attestation of OSARs submitted by various OASPs. This process involves executing BeSPlaybooks in BeSEnvironments within their BeSLabs, validating the BeSPlaybooks, verifying the results, and attesting the OSAR. The OASP then presents this proof to the OSSVerse Certifying Service as part of the TAVOSS certification process for the OSSProject.
+
+## What role does an OASP play in the TAVOSS certification process?
+
+An OASP is instrumental in the TAVOSS certification process for an OSSProject by conducting thorough assessments. This includes executing BeSPlaybooks in BeSEnvironments, validating these playbooks, verifying assessment results, and attesting the OSAR. The OASP must then provide Proof of Assessment/Attestation of OSAR to the OSSVerse Certifying Service, facilitating the TAVOSS certification for the OSSProject.
+
+## Can an OASP that caters to Assurance Level 3+ demonstrate their competence without TAVOSS certification? 
+
+Although an OASP itself does not receive TAVOSS certification, they can demonstrate their competence in catering to Assurance Level 3+ through the successful facilitation of the TAVOSS certification process for OSSProjects. Their capability to conduct comprehensive assessments and provide validated Proof of Assessment/Attestation of OSAR showcases their expertise and competence at higher assurance levels.
+
+## What is the significance of providing Proof of Assessment/Attestation of OSAR for an OASP?
+
+Providing Proof of Assessment/Attestation of OSAR is significant for an OASP as it evidences their capability to assess and assure OSSProjects at specified levels. For Assurance Level 1-2, this proof reflects the OASP's ability to conduct minimal assessments and ensure basic security and reliability standards. This documentation is a crucial part of the OASP's credentials within the OSSVerse ecosystem, demonstrating their assessment and attestation capabilities.
