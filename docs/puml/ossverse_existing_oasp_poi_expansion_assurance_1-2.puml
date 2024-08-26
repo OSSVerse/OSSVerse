@@ -1,0 +1,75 @@
+@startuml
+title Scenario 2: Existing OASP Expanding PoI (Assurance Level 1 or 2)
+
+participant "Business" as OASP
+participant OSSVerse 
+participant "OSSVerse Marketplace" as Marketplace
+participant "License Service" as LicenseService
+participant "Certification Service" as CertService
+participant "OSSVerse Support Service" as SupportService
+participant Tocomo
+
+note right of SupportService
+OSSVerse Support Service can:
+- Provide initial BeS Lab setup & guidance
+- Offer technical assistance & troubleshooting
+- Facilitate connections with other OASPs or experts
+- Assist with BeS Playbook curation (if needed)
+- Provide training & resources on OSSVerse processes
+- Conduct assessments (internally or through partners)
+end note
+
+Tocomo -> Marketplace: Registers & Publishes Catalog
+
+OASP -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level 1 or 2)
+OASP -> OSSVerse: Provides Info (MoI, OSAR, Attestation)
+OSSVerse -> Marketplace: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Business's Request
+
+alt  No OASP with Matching PoI 
+  OSSVerse -> OSSVerse: Publishes Open Call for Existing OASPs to Expand PoI ( based on lowest cost criteria)
+  Tocomo -> OSSVerse: Applies for Additional OASP License (with new PoI/MoI)
+
+  alt  Tocomo Awarded License
+    OSSVerse -> SupportService: Requests BeS Lab Setup Assistance for Tocomo
+    SupportService -> Tocomo: Helps with BeS Env & Playbook Setup 
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> OSSVerse: Submits Curated BeS Env & Playbook for Assessment
+    OSSVerse -> SupportService: Fetches Curated BeS Env & Playbook
+    SupportService -> SupportService: Performs Assessment & Evaluation
+    SupportService -> OSSVerse: Submits Attested OSAR Report
+    OSSVerse -> OSSVerse: Evaluates OSAR & Verifies Playbook Execution
+
+    alt  OSAR & Playbook Execution are Satisfactory
+      OSSVerse -> CertService: Submits OSAR for Evaluation 
+      alt  OSAR is Satisfactory
+        CertService -> OSSVerse: Issues Certificate to Tocomo
+        OSSVerse -> Tocomo: Grants Certificate (Attested OSAR)
+        LicenseService -> OSSVerse: Issues License to Tocomo
+        OSSVerse -> Tocomo: Grants Additional OASP License for New PoI/MoI
+        OSSVerse -> Marketplace: Updates OASP Catalog (Tocomo now listed for new PoI/MoI)
+
+        '--- Tocomo now assesses the Business's project
+        OASP -> OSSVerse: Provides BeS Env & Playbook for Assessment 
+        OSSVerse -> Tocomo: Fetches and curates the Bes Lab env and Playbook
+        Tocomo -> Tocomo: Performs Assessment & Evaluation
+        Tocomo -> OSSVerse: Submits Attested OSAR Report
+        OSSVerse -> CertService: Submits OSAR for Evaluation 
+        alt  OSAR is Satisfactory
+          CertService -> OSSVerse: Issues Certificate to Business
+          OSSVerse -> OASP: Grants Certificate (Attested OSAR)
+          alt  Business Wants to Become OASP
+            LicenseService -> OSSVerse: Issues License to OASP
+            OSSVerse -> OASP: Onboards as OASP
+            OSSVerse -> Marketplace: Updates OASP Status for PoI (Business now listed)
+          end 
+        else  OSAR is Not Satisfactory
+          OSSVerse -> OASP: Further Action Required (OSAR highlights areas for improvement)
+        end 
+      else  OSAR is Not Satisfactory
+        OSSVerse -> Tocomo: Further Action Required (OSAR highlights areas for improvement)
+      end 
+    end  
+  end 
+end
+@enduml
