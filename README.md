@@ -128,3 +128,28 @@ Although an OASP itself does not receive TAVOSS certification, they can demonstr
 ## What is the significance of providing Proof of Assessment/Attestation of OSAR for an OASP?
 
 Providing Proof of Assessment/Attestation of OSAR is significant for an OASP as it evidences their capability to assess and assure OSSProjects at specified levels. For Assurance Level 1-2, this proof reflects the OASP's ability to conduct minimal assessments and ensure basic security and reliability standards. This documentation is a crucial part of the OASP's credentials within the OSSVerse ecosystem, demonstrating their assessment and attestation capabilities.
+
+# FAQ: Setting Up and Utilizing BeS Lab for Businesses
+
+## What are the prerequisites for becoming an OASP (Open Source Assurance Provider)? 
+
+To qualify as an OASP, the following conditions must be met:
+a. Obtain an OSAR (Open Source Assurance Report) or TAVOSS (Trustworthy AI & Value Open Source Software) Certificate for the project or category of projects.
+b. Curate a BeS Lab.
+c. Enable Beckn (to register in the OSSVerse marketplace).
+
+## When is the BeS Lab set up for an OASP? 
+
+The BeS Lab can be set up after obtaining the necessary reports, certificates, and the license. This setup enables the OASP to conduct subsequent assessments. Alternatively, the BeS Lab can be established at the beginning for self-assessment purposes, in addition to assessments conducted by other registered OASPs. It's important to note that the BeS Lab settings require customization based on the specific project needs of the business.
+
+## Is a BeS Lab necessary for businesses not interested in becoming an OASP on OSSVerse?
+
+No, setting up a BeS Lab is optional for businesses that do not aim to become an OASP on OSSVerse. Any business interested in using the BeS Lab as a tooling platform for their Open Source Program Office (OSPO) or in becoming an OASP in the future can set up their own BeS Lab. Additionally, selected OASPs or dedicated OSSVerse ecosystem participants, such as BeSLabs like O31E, can offer BeS Lab setup services to businesses for a fee. However, for businesses intending to participate in OSSVerse as an OASP, having a BeS Lab and publishing a catalog of their services, Projects of Interest (OSSPoI), or Models of Interest (OSSMoI) is mandatory to be discoverable by other businesses on OSSVerse.
+
+## Can you explain what it means when Projects of Interest (PoIs) match? 
+
+When PoIs match, it signifies that an OASP can provide evidence of having assessed open source projects with a technology stack similar to that outlined in the OSSProject or OSSModel card. This means the OASP can show they have executed BeSPlaybook in BeSEnvironments for a project similar to the one a business is seeking support for and have generated an OSAR for that OSSProject/OSS Model.
+
+## Does including a new Project of Interest (PoI) necessitate a new license for an OASP? 
+
+Yes, whenever a new PoI is added, OSSVerse may issue a new license to an OASP. This occurs each time the OSSVerse license issuance service validates the OSAR submitted by an OASP for the newly included PoI.
