@@ -1,0 +1,33 @@
+@startuml
+
+skin rose
+
+title Business Context - OSS Producer & OSS Consumer
+
+actor "Open Source Producer" as OSP
+actor "Open Source Consumer" as OSC
+entity "OSSVerse Marketplace (Platform)" as PF
+entity "Open Source Assurance Provider" as OASP
+
+OSP -> PF: Create/Open Source Software
+PF -> OSP: Open Source Software Repository
+
+OSC -> PF: Search/Purchase Open Source Assurance Services
+PF -> OSC: Open Source Assurance Services List
+
+OASP -> PF: Offer/Open Source Assurance Services
+PF -> OASP: Open Source Assurance Services List
+
+OASP -> PF: Fetch/Curate BeSEnvironments
+PF -> OASP: BeSEnvironments Ready
+
+OASP -> PF: Fetch/Curate BeSPlaybook
+PF -> OASP: BeSPlaybook Ready
+
+OASP -> PF: Execute BeSPlaybook
+PF -> OASP: BeSPlaybook Execution Status
+
+OSC -> OASP: Purchase Open Source Assurance Services
+OASP -> OSC: Open Source Assurance Services Report
+
+@enduml

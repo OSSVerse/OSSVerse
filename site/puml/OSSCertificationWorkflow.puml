@@ -1,0 +1,59 @@
+@startuml
+skin rose
+
+title Open Source Software / Model Certification Service Delivery Sequence
+
+OSSProducer1 -> OSSVerse: New oss certification Request!
+
+OSSVerse -> OSSProducer1: List OSS Projects of Interest!
+
+OSSProducer1 -> OSSVerse: Share PoI or Mol!
+
+OSSVerse -> OSSVerse: Publish OSS Assessment Request from OSSProducer1 (ASSESSEMENT1)!
+
+OASP1 -> OSSVerse: Bid for ASSESSMENT1!
+
+OASP1 -> OASP1: Fetch/Curate BeSEnvironment for ASSESSMENT1!
+
+OASP1 -> OASP1: Fetch/Curate BesPlaybook for ASSESSMENT!
+
+OASP1 -> OASP1: Perform ASSESSMENT!
+
+OASP1 -> OASP1: Evaluate ASSESSMENT!
+
+OASP1 -> OSSVerse: Share/Publish BeSEnvironment/BeSPlaybook for ASSESSMENT1
+
+OASP1 -> OSSVerse: Present Proof of Attestation (POA1) for ASSESSMENT1!
+
+OASP2 -> OSSVerse: Bid for ASSESSMENT1!
+
+OASP2 -> OASP2: Fetch/Curate BeSEnvironment for ASSESSMENT1!
+
+OASP2 -> OASP2: Fetch/Curate BeSPlaybook for ASSESSMENT1!
+
+OASP2 -> OASP2: Perform ASSESSMENT1!
+
+OASP2 -> OASP2: Evaluate ASSESSMENT1!
+
+OASP2 -> OSSVerse: Share/Publish BeSEnvironment/BeSPlaybook for ASSESSMENT1!
+
+OASP2 -> OSSVerse: Present Proof of Attestation (POA2) for ASSESSMENT1!
+
+OASP3 -> OSSVerse: Bid for ASSESSMENT1!
+
+OASP3 -> OASP3: Fetch/Curate BeSEnvironment for ASSESSMENT1!
+
+OASP3 -> OASP3: Fetch/Curate BeSPlaybook for ASSESSMENT1!
+
+OASP3 -> OASP3: Perform ASSESSMENT1!
+
+OASP3 -> OASP3: Evaluate ASSESSEMENT1!
+
+OASP3 -> OSSVerse: Present Proof of Attestation (POA3) for ASSESSMENT1!
+
+OASP3 -> OSSVerse: Share/Publish BeSEnvironment/BeSPlaybook for ASSESSMENT1!
+
+OSSVerse -> OSSVerse: Verify POAI, POA2, POA3 and validate ASSESSMENT1!
+
+OSSVerse -> OSSProducer1: ISSUE Certification for ASSESSMENT1!
+@enduml

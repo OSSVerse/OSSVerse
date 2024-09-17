@@ -1,0 +1,340 @@
+{% extends "overrides/main-styles.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+{{ super() }}
+
+<!-- Hero for landing page -->
+
+<!--binbash leverage documetation-->
+<section class="first-gradiant-body w-100">
+  <div class="md-grid conteiner-row pt-1 pt-lg-5 my-4">
+    <div class="px-3 ctx-header-text conteiner">
+      <div class="conteiner-row">
+        <p class="h1 text-xs-center">
+          Documentación de binbash
+          <img src="../assets/images/logos/leverage-title-logo.svg" class="mx-3 leverage-title-logo" height="22%"/>
+        </p>
+      </div>
+      <img src="../assets/images/logos/binbash-landing-header.svg" class="laverage-header-img d-lg-none d-xl-none mx-auto mb-5" />
+      <p class="h3 text-xs-center">la solución líder, fácil de desplegar, reutilizable y automatizada para configurar y administrar su infraestructura segura y escalable en entornos multi-cuenta de AWS.</p>
+      <div class="conteiner-row conteiner-xs">
+        <button
+          type="button"
+          title="{{ page.next_page.title | e }}"
+          onclick="location.href='https://leverage.binbash.co/concepts/overview/'"
+          class="btn-dark btn-xl-large btn-lg-large mx-3  mt-3 my-md-5 my-lg-5 my-xl-5 box-shadow"
+        >
+            Empezar
+        </button>
+        <button
+          type="button"
+          title="{{ page.next_page.title | e }}"
+          onclick="window.open('https://join.slack.com/t/binbashar/shared_invite/zt-fw1692b6-9k4ADsWJ47lKacszphXM1w', '_blank')"
+          class="btn-warning btn-xl-large btn-lg-large mx-3 mt-3 my-md-5 my-lg-5 my-xl-5 box-shadow"
+        >
+          Únete a Leverage Slack
+        </button>
+      </div>
+    </div>
+    <div class="ctx-header-img d-lg">
+      <img src="../assets/images/logos/binbash-landing-header.svg" class="laverage-header-img mx-lg-5" />
+    </div>
+  </div>
+
+</section>
+
+<section class="second-gradiant-body w-100">
+  <!--We ship it. You own it-->
+  <div class="md-grid conteiner-row pt-4 my-4">
+    <div class="card-white py-3 mx-xs-3 mx-sm-3 mx-4 mx-xl-0 ">
+      <div class="conteiner-row">
+        <div class="conteiner ctx-card-white-1 pt-4">
+          <div class="d-sm text-align-center">
+            <p class="display-3 Telegraf-UltraBold text-dark mx-auto mt-4">We ship it.</p>
+            <p class="display-3 Telegraf-UltraBold text-pink mx-auto my-4">You own it.</p>
+          </div>
+          <div class="d-sm-none d-md-none d-lg-none d-xl-none text-align-center">
+            <p class="display-4 Telegraf-UltraBold text-dark mx-auto mt-4">We ship it.</p>
+            <p class="display-4 Telegraf-UltraBold text-pink mx-auto my-4">You own it.</p>
+          </div>
+
+          <div class="conteiner ctx-card-white-1 text-dark h3 d-lg-none d-xl-none my-xs-5 my-sm-5 my-md-5">
+            <ul class="ul-home mx-xs-auto mx-sm-auto mx-md-auto my-xs-5 my-sm-5 my-md-5">
+              <li>- Goberná tu infraestructura AWS</li>
+              <li>- Implementá, reusá y escalá más rápido</li>
+              <li>- Despliegue su AWS Landing Zone</li>
+              <li>- Librerias y módulos probados</li>
+              <li>- Stack moderno Terraform, Ansible, Helm, K8s</li>
+              <li>- Optimice sus costos en la nube por diseño</li>
+              <li>- Asegure cargas productivas en la nube</li>
+              <li>- Garantice compliance en AWS</li>
+            </ul>
+          </div>
+
+          <button
+            onclick="window.open('https://github.com/binbashar', '_blank')"
+            title="{{ lang.t('source.link.title') }}"
+            type="button"
+            class="btn-white btn-xl-large btn-lg-large box-shadow mx-auto my-4"
+          >
+            Contribuir en GitHub
+          </button>
+        </div>
+        <div class="conteiner ctx-card-white-1 text-dark h3 d-lg">
+          <ul>
+            <li>- Goberná tu infraestructura AWS</li>
+            <li>- Implementá, reusá y escalá más rápido</li>
+            <li>- Despliegue su AWS Landing Zone</li>
+            <li>- Librerias y módulos probados</li>
+            <li>- Stack moderno Terraform, Ansible, Helm, K8s</li>
+            <li>- Optimice sus costos en la nube por diseño</li>
+            <li>- Asegure cargas productivas en la nube</li>
+            <li>- Garantice compliance en AWS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Whats is leverage-->
+  <div class="conteiner-row-lg conteiner-row-xl conteiner py-5 my-5">
+    <div class="conteiner" style="order:0; flex: 50%;">
+      <div class="conteiner ctx-what-is mx-auto">
+        <span class="display-3 text-dark Telegraf-UltraBold mt-4 text-align-center text-end-xl text-end-lg">Qué es Leverage?</span>
+        <div class="conteiner text-dark h3 text-align-start text-end-xl text-end-lg my-xs-5 my-sm-5 my-md-5">
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Nos especializamos en la creación de código reutilizable y de alta calidad para creación de infraestructura en la nube de AWS
+          </p>
+          <p class="my-3 t-b">
+            • Arquitectura de Referencia Cloud AWS<br>
+            • Librería de Infraestructura como Código (IaC)<br>
+            • Leverage CLI (Interfaz de Línea de Comandos)<br>
+          </p>
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Debido a que todo el código y los módulos ya están desarrollados, podemos poner en marcha su proyecto en AWS <span class="t-b">al menos 2 veces más rápido</span> que una empresa de consultoría (¡típicamente en sólo unas semanas!).
+          </p>
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Sobre un código que está completamente documentado, validado y que ha sido probado en producción en docenas de otros proyectos por nuestro <span class="t-b">Equipo de soporte de ingeniería.</span>
+          </p>
+          <button
+            onclick="location.href='https://www.binbash.co/leverage'"
+            title="{{ page.next_page.title | e }}"
+            type="button"
+            class="btn-dark btn-xl-large btn-lg-large my-4 box-shadow ml-auto mx-xs-auto mx-sm-auto mx-md-auto"
+          >
+            Características del Producto
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="conteiner" style="order:1; flex: 50%; overflow:hidden;">
+      <img src="../assets/images/illustrations/mock-mac-book-16.png" class="laverage-mac-img my-xs-5 my-sm-5 my-md-5" />
+    </div>
+  </div>
+</section>
+
+<!--Why Leverage-->
+<section class="third-dark-body w-100">
+  <div class="conteiner py-5 my-5">
+    <img src="../assets/images/illustrations/why-leverage.svg" class="why-laverage-img" />
+    <img src="../assets/images/illustrations/Ilustracion-Binbash.png" class="laverage-mac2-img" />
+    <div class="conteiner-row">
+      <div style="order:0; flex: 50%;">
+        <div class="conteiner ctx-card-white-1 text-white h3 my-5 d-xl-none d-lg-none mx-auto w-70">
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Obtendrá toda la infraestructura de su aplicación nativa en la nube en pocas semanas.
+          </p>
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Hemos construido cada componente basándonos en las mejores prácticas recomendadas.
+          </p>
+          <p class="my-3">
+            <img src="../assets/images/icons/check-ok.svg" class="mx-2" width="20px" height="20px"/>
+            Implementar, reutilizar y escalar sus cargas de trabajo de producción con mayor rapidez.
+          </p>
+        </div>
+        <div class="conteiner ctx-card-white-1 text-white h3 my-5 mx-auto w-70">
+          <btn
+            onclick="window.open('https://www.binbash.co/competition','_blank')"
+            title="{{ lang.t('source.link.title') }}"
+            type="button"
+            class="btn-rainbow btn-rainbow-custom btn-xl-large btn-lg-large mx-auto text-align-center cursor-pointer"
+          >
+            Leverage vs. Competencia
+          </btn>
+        </div>
+      </div>
+      <div style="order:0; flex: 50%;" class="d-lg">
+        <div class="card-rainbow second-gradiant-body px-5 py-5" style="order:1; flex: 100%;">
+          <div class="conteiner ctx-card-white-1 text-dark h3">
+            <p class="my-3">
+              <img src="../assets/images/icons/check-ok.svg" width="20px" height="20px"/>
+              Si usted implementa nuestra <span class="t-b">Arquitectura de Referencia Cloud AWS</span> y la <span class="t-b">librería de Infraestructura como Código (IaC)</span> a través de <span class="t-b">Leverage CLI</span>, obtendrá toda la infraestructura de su aplicación nativa en la nube en pocas semanas.
+            </p>
+            <p class="my-3">
+              <img src="../assets/images/icons/check-ok.svg" width="20px" height="20px"/>
+              Hemos construido cada componente basándonos en las mejores prácticas recomendadas siguiendo principalmente el <span class="t-b">AWS Well-Architected Framework</span>, otorgando su propiedad para implementar, reutilizar y escalar sus cargas de trabajo de producción con mayor rapidez.
+            </p>
+            <p class="my-3">
+              <img src="../assets/images/icons/check-ok.svg" width="20px" height="20px"/>
+              Leverage resolverá toda su infraestructura y le otorgará el control total del código fuente, y por supuesto podrá ejecutarlo y mantenerlo sin necesidad estricta de nuestro soporte.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Our tech stack-->
+<section class="four-gray-body w-100">
+  <div class="md-grid conteiner pt-5  my-0 my-xl-4 my-lg-4">
+    <p class="display-3 text-dark Telegraf-UltraBold mt-4 text-align-center text-start-xl text-start-lg">Nuestro stack de tecnologías</p>
+    <img src="../assets/images/logos/stack-tecnology.svg" class="mx-auto my-5" width="80%"/>
+    <div class="conteiner conteiner-row-lg conteiner-row-xl my-4">
+      <div class="text-dark h3 mx-4 my-3 mx-lg-0 my-xl-0 mx-lg-0 my-xl-0" style="order:0; flex: 50%;">
+        <p>Arquitectura de referencia AWS componible y extensible. Basado en el <span class="t-b">AWS Well Architected Framework</span>  Con más de 10 años de experiencia, Infra como código y mejores prácticas.</p>
+      </div>
+      <div class="text-dark h3 mx-4 my-3 mx-lg-0 my-xl-0 mx-lg-0 my-xl-0" style="order:0; flex: 50%;">
+        <p>Leverage facilita una colección de soluciones E2E (End-to-End) IaC reutilizables, probadas y listas para producción. Apoyado en módulos desarrollados en <span class="t-b"> Terraform, Ansible, Dockerfiles, Helm Charts y Python. </span>
+      </div>
+    </div>
+    <div class="conteiner conteiner-row-lg conteiner-row-xl my-4">
+      <div class="text-dark h3 mx-4 my-3 mx-lg-0 my-xl-0 mx-lg-0 my-xl-0" style="order:0; flex: 50%;">
+        <p>Flujo de despliegue automatizado a través de <span class="t-b">Leverage CLI.</span></p>
+      </div>
+      <div style="order:0; flex: 50%;">
+        <button
+          onclick="location.href='https://leverage.binbash.co/how-it-works/ref-architecture/general-concepts/why-tech-stack'"
+          title="{{ page.next_page.title | e }}"
+          type="button"
+          class="btn-dark btn-xl-large btn-lg-large my-4 box-shadow mx-auto"
+        >
+          Por qué nuestro stack de tecnologías?
+        </button>
+      </div>
+    </div>
+<!--    <img src="../assets/images/diagrams/AWS-ORGANIZATION.png" class="mx-auto mt-5 mb-3 d-sm" width="100%"/>-->
+    <img src="../assets/images/diagrams/ref-architecture-aws.png" class="mx-auto mt-5 mb-3 d-sm" width="100%"/>
+    <img src="../assets/images/diagrams/diagrama-organization-binbash.png" class="mx-auto mt-5 d-sm-none d-md-none d-lg-none d-xl-none" width="100%"/>
+    <div class="conteiner-row my-0 my-xl-4 my-lg-4 stack-tenology-gradient">
+      <img src="../assets/images/logos/stack-tecnologico-2.svg" class="mx-auto py-3" width="60%"/>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer class="bg-dark w-100">
+  <div class="md-grid conteiner-row-xl conteiner-row-lg conteiner pt-5 my-4">
+    <div class="conteiner-row" style="flex:50%">
+      <div class="text-white d-flex" style="flex: 40%;">
+        <img src="../assets/images/logos/logo-binbash.png" class="mx-auto" width="30%"/>
+      </div>
+      <div class="text-white h3" style="flex: 30%;">
+        <div class="conteiner text-white h3">
+          <ul>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/" target="_blank">Inicio</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/" target="_blank">Soluciones</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/leverage" target="_blank">Leverage</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://medium.com/binbash-inc" target="_blank">Blog</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/contact" target="_blank">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-white h3" style="flex: 30%;">
+        <div class="conteiner text-white h3">
+          <ul>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://github.com/sponsors/binbashar" target="_blank">Sobre nosotros</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/team" target="_blank">Equipo</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://github.com/binbashar" target="_blank">Recursos</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/" target="_blank">Testimonios</a>
+            </li>
+            <li class="cursor-pointer item-text-footer">
+              <a href="https://www.binbash.co/pricing" target="_blank">Precios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="conteiner-row mt-5 my-xl-0 mX-lg-0" style="flex:50%">
+      <div class="text-white text-end h3" style="flex: 15%;">
+          <span>Síguenos en: </span>
+      </div>
+      <div class="text-white h3" style="flex: 55%;">
+        <a href="https://join.slack.com/t/binbashar/shared_invite/zt-fw1692b6-9k4ADsWJ47lKacszphXM1w" target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/slack.svg"
+            title="Slack"
+            class="mx-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+        <a href="https://www.linkedin.com/company/binbash" target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/linkedIn.svg"
+            title="linkedIn"
+            class="mr-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+        <a href="https://github.com/binbashar" target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/github.svg"
+            title="Github"
+            class="mr-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+        <a href="https://twitter.com/binbash_devops" target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/twitter.svg"
+            title="Twitter"
+            class="mr-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+        <a href="https://www.instagram.com/binbash_devops/"  target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/instagram.svg"
+            title="Instagram"
+            class="mr-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+        <a href="https://medium.com/binbash-inc" target="_blank">
+          <img
+            src="../assets/images/logos/socialmedia/medium.svg"
+            title="Medium"
+            class="mr-3 cursor-pointer item-social-media"
+            width="9%"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+{% endblock %}

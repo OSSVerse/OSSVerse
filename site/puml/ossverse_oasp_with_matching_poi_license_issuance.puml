@@ -1,0 +1,87 @@
+@startuml
+participant "Business" as OASP
+participant OSSVerse 
+participant "OSSVerse Marketplace" as Marketplace
+participant "License Service" as LicenseService
+participant "Certification Service" as CertService
+participant Tocomo
+participant Greenhill
+participant Openfort
+
+note right of OASP
+Assumption - BeSLab has been set up for Business
+end note
+
+note right of CertService
+OSSVerse Certification Service:
+- Evaluates OSARs & issues certificates
+- Can certify if the project is TAVOSS compliant
+- Provides OSAR certification (Proof of Attestation)
+end note
+
+Tocomo -> Marketplace: Registers & Publishes Catalog
+Greenhill -> Marketplace: Registers & Publishes Catalog
+Openfort -> Marketplace: Registers & Publishes Catalog
+
+OASP -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level)
+OASP -> OSSVerse: Provides Info (MoI, BeS Lab Details, OSAR, Attestation)
+OSSVerse -> Marketplace: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Business's Request
+
+alt PoI Match Found & Assurance Level 1 or 2
+    OSSVerse -> Tocomo: Assigns Assessment (if PoI matches)
+    OSSVerse -> Tocomo: Provides BeS Env & Playbook
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> Tocomo: Performs Assessment & Evaluation
+    Tocomo -> OSSVerse: Submits Attested OSAR Report
+    OSSVerse -> CertService: Submits OSAR for Evaluation
+    alt OSAR is Satisfactory
+        CertService -> OSSVerse: Issues Certificate
+        OSSVerse -> OASP: Grants Certificate (Trusted & Certified OSS)
+        alt Business Wants to Become OASP
+            LicenseService -> OSSVerse: Issues License to OASP
+            OSSVerse -> OASP: Onboards as OASP
+            OSSVerse -> Marketplace: Updates OASP Status for PoI (Business now listed)
+        end 
+    else OSAR is Not Satisfactory
+        OSSVerse -> OASP: Further Action Required (OSAR highlights areas for improvement)
+    end
+end
+
+alt PoI Match Found & Assurance Level 3+
+    OSSVerse -> OSSVerse: Publishes Bid Invitation
+    Tocomo -> OSSVerse: Responds to Bid
+    Greenhill -> OSSVerse: Responds to Bid
+    Openfort -> OSSVerse: Responds to Bid
+    OSSVerse -> OSSVerse: Evaluates Bids & Selects 3 OASPs
+    OSSVerse -> Tocomo: Selects for Assessment
+    OSSVerse -> Greenhill: Selects for Assessment
+    OSSVerse -> Openfort: Selects for Assessment
+    OSSVerse -> Tocomo: Provides BeS Env & Playbook
+    OSSVerse -> Greenhill: Provides BeS Env & Playbook
+    OSSVerse -> Openfort: Provides BeS Env & Playbook
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> Tocomo: Performs Assessment & Evaluation
+    Greenhill -> Greenhill: Fetches/Curates BeS Env & Playbook
+    Greenhill -> Greenhill: Performs Assessment & Evaluation
+    Openfort -> Openfort: Fetches/Curates BeS Env & Playbook
+    Openfort -> Openfort: Performs Assessment & Evaluation
+    Tocomo -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Greenhill -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Openfort -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    OSSVerse -> OSSVerse: Evaluates OSARs & Verifies Playbook Execution Results
+    alt All OSARs & Playbook Executions are Satisfactory
+        OSSVerse -> CertService: Requests TAVOSS Certificate for OASP's Project
+        CertService -> OSSVerse: Issues TAVOSS Certificate
+        OSSVerse -> OASP: Grants TAVOSS Certificate (Trusted & Certified OSS) 
+        alt Business Wants to Become OASP
+            OSSVerse -> LicenseService: Requests License for OASP
+            LicenseService -> OSSVerse: Issues License to OASP
+            OSSVerse -> OASP: Onboards as OASP
+            OSSVerse -> Marketplace: Updates OASP Status for PoI (Business now listed)
+        end
+    else Some OSARs or Playbook Executions are Not Satisfactory
+        OSSVerse -> OASP: Further Action Required (Assessments or project needs improvement)
+    end
+end
+@enduml
