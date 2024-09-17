@@ -1,7 +1,7 @@
-# What can Leverage do for you?
-Still not convinced? Check out the following sections which describe what Leverage can bring on the table depending on your role in a company.
+# What can OSSVerse do for you?
+Still not convinced? Check out the following sections which describe what OSSVerse can bring on the table depending on the type of participant in the decentralized marketplace.
 
-## Leverage for CIOs, CTOs and VPs of Engineering
+## OSSVerse for Open Source Projects and ML Model Consumers
 
 ??? question "**Accelerate development and optimize costs**"
     Annual cost savings are a new standard and best practice. Profits are being targeted to business development,
@@ -29,6 +29,8 @@ Still not convinced? Check out the following sections which describe what Levera
     Helm and Hashicorp Vault. By using the `Leverage CLI`, our binary will help you to quickly bootstrap your AWS
     Landing Zone in a matter of hours (or at most a few days).
 
+## OSSVerse for Open Source Projects and ML Model Producers
+
 ??? question "**It's not just a pile of scripts**"
     It's not just another layer of untested, one time and stand-alone developed scripts. The code is modularized
     and well designed under best practices, our `Leverage CLI` has both unit and integration tests. While our
@@ -54,7 +56,7 @@ Still not convinced? Check out the following sections which describe what Levera
     The `Leverage CLI` allows to build repeatable and immutable infrastructure. So your cloud development, staging and
     production environments will consistently be the same.
 
-## Leverage for DevOps Engineers, Cloud Architects and Software Engineers
+## OSSVerse for Open Source Assurance Service Providers
 
 ??? question "**Provisioning infrastructure as code (Iac)**"
     Instead of manually provisioning infrastructure, the real benefits of cloud adoption come from orchestrating
@@ -94,17 +96,4 @@ Still not convinced? Check out the following sections which describe what Levera
     on GitHub and is free to use with no strings attached under [MIT license](https://choosealicense.com/licenses/) 
     (no licensing fees), and you are free to commercially and privately use, distribute and modify.
 
-??? question "**Consistent environments (Dev/prod parity)**"
-    Keep development, staging, and production cloud envs parity.
-    Infrastructure as code allow us to define and provisioning all infrastructure components (think networks, load 
-    balancers, databases, security, compute and storage, etc.) using code. ***Leverage*** uses Terraform as the IaC language,
-    to deploy and setup all the AWS, Kubernetes and Hashicorp Vault resources (it has support for multiple cloud and
-    technology providers). Backed by code, your cloud environments are built exactly the identical way all the time. 
-    Finally, this will result in no differences between development, staging and production.
 
-??? question "**Development in production like envs**"
-    IaC allows your development team to deploy and test the AWS infrastructure as if it were application code. 
-    Your development is always done in production-like environments. Provision your cloud test and sandbox 
-    environments on demand and tear them down when all your testing is complete. ***Leverage*** takes all the pain
-    out of maintaining production-like environments, with stable infra releases. It eliminates the unpredictability
-    of wondering if what actually worked in your development envs will work in production.

@@ -1,19 +1,21 @@
-# What is Leverage?
-Leverage was made out of a significant amount of knowledge, acquired through several years of experience, turned into an ecosystem of code, tools, and workflows that enables you to build the AWS infrastructure for your applications and services quickly and securely.
+# What is OSSVerse?
+OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platforms. It is an adaptation of ONDC and Beckn protocol for open source software service delivery . OSSVerse leverages BeSecure(BeS) for delivering open source software security assurance services. OSSVerse aims to establish an open network of OASPs for businesses that will offer trustworthy and reliable open source software assurance services.
 
-Since all the code and modules are already built, we can get you up and running **up to 10x faster** :rocket: 
-than a consulting company -- :white_check_mark: *typically in just a few weeks!* -- and on top of code that is thoroughly documented, tested, and has been proven in production at dozens of other project deployments.
+## Key Stakeholders
+A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components
 
-## Core Components
-Our focus is on creating reusable, high quality ![leverage-aws](/assets/images/icons/aws-emojipack/General_AWScloud.png "AWS"){: style="width:30px"} Cloud Infrastructure code, through our core components:
+- [x] [**Open Source Model Producers (Individuals & Organizations)**](/user-guide/ref-architecture-aws/overview/): Create and share open source models.
 
-- [x] [**Reference Architecture**](/user-guide/ref-architecture-aws/overview/): Designed under optimal configs for the most popular modern web and mobile applications needs. Its design is fully based on the
-[**AWS Well Architected Framework**](/work-with-us/support/#aws-well-architected-review).
+- [x] [**Open Source Model Consumers (Organizations)**](/user-guide/infra-as-code-library/overview/): Consume and request for assurance services of open source models.
 
-- [x] [**Infrastructure as Code (IaC) Library**](/user-guide/infra-as-code-library/overview/): A collection of reusable, tested, production-ready E2E AWS Cloud infrastructure as code solutions, leveraged by modules written in: *Terraform, Ansible, Helm charts, Dockerfiles and Makefiles*.
+- [x] [**Open Source Model Distributors (Platforms & Organizations)**](/user-guide/leverage-cli/overview/): Distribute the sharing of open-source models along with the proof of attestation of models OASP.
 
-- [x] [**Leverage CLI**](/user-guide/leverage-cli/overview/): projects' command line tool. Provides the means to interact and deploy Leverage Reference Architecture on AWS and if needed it allows you to define custom tasks to run.
+- [x] [**Open Source Marketplace operator/consortia**](/user-guide/leverage-cli/overview/): Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
+
+- [x] [**Open Source Assurance Service Provider (OASP)**](/user-guide/leverage-cli/overview/): Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
+
+- [x] [**Security Experts & Freelancers**](/user-guide/leverage-cli/overview/): Offering open-source security assessments and support services.
 
 ## Video Presentation
-Check out this **intro video** :octicons-video-16: that explains what Leverage is in less than 5 minutes:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-vb9Qtz6mLs" title="Leverage Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-vb9Qtz6mLs" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
