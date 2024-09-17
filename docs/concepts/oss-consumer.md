@@ -7,3 +7,6 @@ Discover assurance service providers and their service catalogue via the OSSVers
 ![Search Catalogue](/docs/images/discovery-sequence.png)
 
 ## Place an order
+
+## Business User Flow
+![Business User Flow](/docs/images/business-flow.png)

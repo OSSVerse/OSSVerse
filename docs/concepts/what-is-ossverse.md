@@ -12,7 +12,7 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) bac
 
 - [x] [**Open Source Marketplace operator/consortia**](/user-guide/leverage-cli/overview/): Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
 
-- [x] [**Open Source Assurance Service Provider (OASP)**](/user-guide/leverage-cli/overview/): Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
+- [x] [**Open Source Assurance Service Provider (OASP)**](/user-guide/leverage-cli/overview/): An organization that provides security assurance support services like risk assessment, a hardened version of the OSS artifact, remediation of one or more specific vulnerabilities. Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
 
 - [x] [**Security Experts & Freelancers**](/user-guide/leverage-cli/overview/): Offering open-source security assessments and support services.
 
