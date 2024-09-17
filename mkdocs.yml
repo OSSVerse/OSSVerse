@@ -154,7 +154,7 @@ nav:
     - Welcome: "concepts/index.md"
     - First steps: "try-leverage/index.md"
     - How it works: "how-it-works/ref-architecture/index.md"
-    - User guide: "user-guide/index.md"
+    - User guide: "guide/index.md"
     - Work with us: "work-with-us/index.md"
     - License: "license.md"
 
@@ -162,8 +162,8 @@ nav:
     - Index: "concepts/index.md"
     - What is OSSVerse?: "concepts/what-is-ossverse.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
-    - What can Leverange do for you?: "concepts/what-ossverse-can-do-for-you.md"
-    - Our Tech Stack: "concepts/our-tech-stack.md"
+    - What can OSSVerse do for you?: "concepts/what-ossverse-can-do-for-you.md"
+    - Tech Stack: "concepts/tech-stack.md"
     - Next Steps: "concepts/next-steps.md"
 
   - Getting Started:
@@ -178,30 +178,28 @@ nav:
     - Add more AWS Accounts: "getting-started/add-aws-accounts.md"
 
   - Guide:
-    - Index: "user-guide/index.md"
-    - Reference Architecture:
-      - Overview: "user-guide/ref-architecture/overview.md"
-      - Project Structure: "user-guide/ref-architecture/dir-structure.md"
-      - Configuration: "user-guide/ref-architecture/configuration.md"
+    - Index: "guide/index.md"
+    - Architecture:
+      - Overview: "guide/architecture/overview.md"
+      - Project Structure: "guide/architecture/dir-structure.md"
+      - Configuration: "guide/architecture/configuration.md"
     - Releases:
-      - Releases and Versions: "work-with-us/releases/releases-and-versions.md"
-      - Versions compatibility matrix: "work-with-us/releases/versions-compatibility-matrix.md"
+      - Releases and Versions: "guide/releases/releases-and-versions.md"
+      - Versions compatibility matrix: "guide/releases/versions-compatibility-matrix.md"
     - OSSVerse-in-a-Box:
-      - Credentials: "user-guide/ossverse-in-a-box/credentials.md"
-      - Workflow: "user-guide/ossverse-in-a-box/workflow.md"
-      - Terraform State: "user-guide/ossverse-in-a-box/tf-state.md"
-      - References: "user-guide/ossverse-in-a-box/references.md"
+      - Credentials: "guide/ossverse-in-a-box/credentials.md"
+      - Workflow: "guide/ossverse-in-a-box/workflow.md"
+      - Terraform State: "guide/ossverse-in-a-box/tf-state.md"
+      - References: "guide/ossverse-in-a-box/references.md"
     - Troubleshooting:
-      - Overview: "user-guide/troubleshooting/index.md"
-      - General: "user-guide/troubleshooting/general.md"
-      - Credentials: "user-guide/troubleshooting/credentials.md"
+      - Overview: "guide/troubleshooting/index.md"
+      - General: "guide/troubleshooting/general.md"
+      - Credentials: "guide/troubleshooting/credentials.md"
   - Join OSSVerse:
       - Overview: "join-ossverse/index.md"
       - Support: "join-ossverse/support.md"
       - Contribute: "join-ossverse/contribute.md"
-
-      - Careers: "work-with-us/careers.md"
-      #- Team: "work-with-us/team.md"
-      #- Testimonials: "work-with-us/testimonials.md"
-      - FAQs: "work-with-us/faqs.md"
-      - Contact Us: https://www.binbash.co/contact
+      - Team: "join-ossverse/team.md"
+      - Testimonials: "join-ossverse/testimonials.md"
+      - FAQs: "join-ossverse/faqs.md"
+      - Contact Us: "join-ossverse/contact.md"
