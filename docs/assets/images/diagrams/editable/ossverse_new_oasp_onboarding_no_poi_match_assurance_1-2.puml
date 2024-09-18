@@ -1,0 +1,73 @@
+@startuml
+title First-time OASP Onboarding (Empty Marketplace)
+
+participant "Business (New OASP)" as OASP
+participant OSSVerse 
+participant "OSSVerse Marketplace" as Marketplace
+participant "License Service" as LicenseService
+participant "Certification Service" as CertService
+participant "OSSVerse Support Service" as SupportService
+
+note right of SupportService
+OSSVerse Support Service can:
+- Provide initial BeS Lab setup & guidance
+- Offer technical assistance & troubleshooting
+- Facilitate connections with other OASPs or experts
+- Assist with BeS Playbook curation (if needed)
+- Provide training & resources on OSSVerse processes
+- Conduct assessments (internally or through partners)
+- Relax quorum requirements initially (if marketplace is empty)
+end note
+
+OASP -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level 1 or 2)
+OASP -> OSSVerse: Provides Info (MoI, OSAR, Attestation)
+OSSVerse -> Marketplace: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Business's Request
+
+alt No OASP with Matching PoI 
+    OSSVerse -> OSSVerse: Publishes Open Call for New OASP (with Lowest Cost Criteria)
+    NewOASP -> OSSVerse: Applies for OASP License (with new PoI/MoI)
+
+    alt New OASP Awarded License
+        OSSVerse -> SupportService: Requests BeS Lab Setup Assistance for NewOASP
+        SupportService -> NewOASP: Helps with BeS Env & Playbook Setup 
+        NewOASP -> NewOASP: Fetches/Curates BeS Lab Env & Playbook
+        NewOASP -> OSSVerse: Submits Curated BeS Env & Playbook 
+        OSSVerse -> SupportService: Fetches Curated BeS Env & Playbook
+        SupportService -> SupportService: Performs Assessment & Evaluation
+        SupportService -> OSSVerse: Submits Attested OSAR Report
+        OSSVerse -> OSSVerse: Evaluates OSAR & Verifies Playbook Execution
+        alt OSAR & Playbook Execution Satisfactory
+            NewOASP -> Marketplace: Publishes Final BeS Env & Playbook
+            OSSVerse -> CertService: Submits OSAR for Evaluation (for NewOASP's project)
+            alt OSAR is Satisfactory
+                CertService -> OSSVerse: Issues OSAR Certificate to NewOASP
+                OSSVerse -> NewOASP: Grants OSAR Certificate 
+                LicenseService -> OSSVerse: Issues License to NewOASP
+                OSSVerse -> NewOASP: Grants License and Onboards as OASP
+                OSSVerse -> Marketplace: Updates OASP Status for PoI (NewOASP now listed)
+
+                '--- NewOASP now assesses the Business's project
+                OASP -> OSSVerse: Provides BeS Env & Playbook for Assessment 
+                OSSVerse -> NewOASP: Provides BeS Env & Playbook for Assessment
+                NewOASP -> NewOASP: Performs Assessment & Evaluation
+                NewOASP -> OSSVerse: Submits Attested OSAR Report
+                OSSVerse -> CertService: Submits OSAR for Evaluation 
+                alt OSAR is Satisfactory
+                    CertService -> OSSVerse: Issues Certificate to Business
+                    OSSVerse -> OASP: Grants Certificate (Attested OSAR)
+                    alt Business Wants to Become OASP
+                        LicenseService -> OSSVerse: Issues License to OASP
+                        OSSVerse -> OASP: Onboards as OASP
+                        OSSVerse -> Marketplace: Updates OASP Status for PoI (Business now listed)
+                    end 
+                else OSAR is Not Satisfactory
+                    OSSVerse -> OASP: Further Action Required (OSAR highlights areas for improvement)
+                end
+            else OSAR is Not Satisfactory
+                OSSVerse -> OASP: Further Action Required (OSAR highlights areas for improvement)
+            end
+        end
+    end
+end
+@enduml

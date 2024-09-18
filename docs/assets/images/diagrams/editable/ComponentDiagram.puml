@@ -1,0 +1,88 @@
+@startuml
+
+title Component Diagram - OSSVerse Marketplace
+
+skin rose
+
+left to right direction
+
+package "OSSVerse" {
+  component [Store Frontend] as comp1
+  component [OSSVerse App(Buyer)] as comp2
+  component [OSSVerse App(Seller)] as comp25
+  component [OSSVerse App(operator)] as comp26
+  component [Protocol Server (BAP)] as comp3
+  component [Accounts / Billing / Payment] as comp21
+  component [Certification Service] as comp23
+  component [Open Source Software Analytics and Cost Benchmarking Service (OSSACB)] as comp24
+
+  comp1 -- comp24
+  comp1 -- comp2
+  comp2 -- comp3
+  comp2 -- comp21
+  comp2 -- comp23
+}
+
+"Automotive Company" --> comp1
+"Marketplace operator" --> comp26
+"New Seller/OASP (Account creation/Registration)" --> comp25
+
+
+package "Open Network" {
+  component [Network Frontend] as comp22
+  component [Beckn Gateway] as comp4
+  database [Network Registry] as comp5
+  comp3 -- comp4
+  comp4 -- comp5
+  comp22 -- comp5
+}
+
+package "Tocomo - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp6
+  package "Tocomo BeSLab" {
+    component [Seller App] as comp7
+    component [Seller UI] as comp8
+    component [BeSLighthouse] as comp9
+    database "Lab Repository" as comp10
+    comp8 <-- "Tocomo Lab"
+    "Tocomo Lab" --> comp9
+    comp9 -- comp10
+  }
+  comp4 -- comp6
+  comp6 -- comp7
+  comp7 -- comp8
+}
+
+package "GreenHill - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp11
+  package "GreenHill BeSLab" {
+    component [Seller App] as comp12
+    component [Seller UI] as comp13
+    component [BeSLighthouse] as comp14
+    database "Lab Repository" as comp15
+    comp13 <-- "GreenHill Lab"
+    "GreenHill Lab" --> comp14
+    comp14 -- comp15
+  }
+  comp4 -- comp11
+  comp11 -- comp12
+  comp12 -- comp13
+}
+
+package "OpenFort - Assurance Service Provider" {
+  component [Protocol Server (BPP)] as comp16
+  package "OpenFort BeSLab" {
+    component [Seller App] as comp17
+    component [Seller UI] as comp18
+    component [BeSLighthouse] as comp19
+    database "Lab Repository" as comp20
+    comp18 <-- "OpenFort Lab"
+    "OpenFort Lab" --> comp19
+    comp19 -- comp20
+  }
+  comp4 -- comp16
+  comp16 -- comp17
+  comp17 -- comp18
+}
+
+@enduml

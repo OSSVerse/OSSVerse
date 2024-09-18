@@ -1,0 +1,19 @@
+@startuml
+
+skin rose
+
+
+"Network Participants" -> OSSVerse.com: Register as OASP
+OSSVerse.com -> "Network Registry": Registration Request
+"Network Registry" -> OSSVerse.com: ACK
+
+
+"Network Registry" -> "Platform Operator": Approval request
+"Platform Operator" -> "Platform Operator": Validate & Verify
+"Platform Operator" -> "Network Registry": Approve
+
+"Network Registry" -> "OSSVerse.com": Subscribed
+"OSSVerse.com" -> "Network Participants": Present Subscription Details
+"Network Registry" -> "Network Participants": Subscription confirmation
+
+@enduml
