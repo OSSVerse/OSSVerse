@@ -3,10 +3,10 @@
 # Site Information
 #===================================================================================#
 site_name: binbash Leverage™
-repo_name: "binbashar/le-ref-architecture-doc"
-repo_url: https://github.com/binbashar/le-ref-architecture-doc
+repo_name: "OSSVerse/OSSVerse"
+repo_url: https://github.com/OSSVerse/OSSVerse
 site_url: https://leverage.binbash.co/
-site_description: binbash Leverage Reference Architecture Documentation
+site_description: OSSVerse Documentation
 site_author: binbash
 copyright: Copyright &copy; 2017-2023 <a href="https://www.binbash.co">binbash</a>
 
