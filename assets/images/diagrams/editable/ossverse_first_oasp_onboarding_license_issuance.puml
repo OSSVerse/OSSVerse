@@ -1,0 +1,54 @@
+@startuml
+title First-time OASP Onboarding (Empty Marketplace)
+
+participant "Business (New OASP)" as OASP
+participant OSSVerse
+participant "OSSVerse Marketplace" as Marketplace
+participant "License Service" as LicenseService
+participant "Certification Service" as CertService
+participant "OSSVerse Support Service" as SupportService
+
+note right of SupportService
+OSSVerse Support Service can:
+- Provide initial BeS Lab setup & guidance
+- Offer technical assistance & troubleshooting
+- Facilitate connections with other OASPs or experts (in future scenarios)
+- Assist with BeS Playbook curation (if needed)
+- Provide training & resources on OSSVerse processes
+- Conduct assessments (internally or through partners)
+- Relax quorum requirements initially (if marketplace is empty)
+end note
+
+OASP -> OSSVerse: Initiates Registration 
+OSSVerse -> OASP: Explains OASP Program, Benefits & Onboarding Process
+OASP -> OSSVerse: Applies for OASP License (with proposed PoI/MoI)
+note right of OASP: Includes info about core product, experience, etc.
+OSSVerse -> LicenseService: Forwards Application
+LicenseService -> LicenseService: Evaluates Application & Proposed PoI/MoI
+
+alt Application Approved
+    OSSVerse -> SupportService: Requests BeS Lab Setup Assistance
+    SupportService -> OASP: Provides Initial BeS Env & Playbook
+    OASP -> OASP: Fetches/Curates BeS Lab Env & Playbook
+    OASP -> OSSVerse: Submits Curated BeS Env & Playbook for Assessment
+    SupportService -> OSSVerse: Fetches Curated BeS Env & Playbook
+    SupportService -> SupportService: Performs Assessment & Evaluation
+    SupportService -> OSSVerse: Submits Attested OSAR Report
+    OSSVerse -> OSSVerse: Evaluates OSAR & Verifies Playbook Execution
+    alt OSAR & Playbook Execution Satisfactory
+        OASP -> Marketplace: Curates & Publishes Final BeS Env & Playbook
+        OSSVerse -> CertService: Requests Certificate for OASP's Project
+        CertService -> OSSVerse: Issues Certificate (based on Assurance Level)
+        OSSVerse -> OASP: Grants Certificate (Proof of Attestation)
+        LicenseService -> OSSVerse: Issues OASP License
+        OSSVerse -> OASP: Grants OASP License 
+        OASP -> Marketplace: Publishes Catalog & Services
+    else OSAR or Playbook Execution Not Satisfactory
+        OSSVerse -> OASP: Further Action Required (OSAR highlights areas for improvement)
+    end
+end
+
+alt Application Rejected
+    OSSVerse -> OASP: Provides Feedback & Suggests Improvements
+end
+@enduml

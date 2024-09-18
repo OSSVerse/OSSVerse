@@ -1,0 +1,87 @@
+@startuml
+participant "Business-AssureOpen" as Client
+participant OSSVerse 
+participant "OSSVerse Open Network" as Beckn
+participant Tocomo
+participant Greenhill
+participant Openfort
+
+Tocomo -> Beckn: Registers & Publishes Catalog
+Greenhill -> Beckn: Registers & Publishes Catalog
+Openfort -> Beckn: Registers & Publishes Catalog
+
+Client -> OSSVerse: Submits Assessment Request (with PoI & Assurance Level)
+Client -> OSSVerse: Provides Info (MoI, BeS Lab Details, OSAR, Attestation)
+OSSVerse -> Beckn: Fetches OASP Catalogs & PoIs
+OSSVerse -> OSSVerse: Checks for PoI Match with Client's Request
+
+note right of OSSVerse: OSSVerse has a Certification Service\nthat can certify if the project is TAVOSS compliant
+
+alt No OASP with Matching PoI & Assurance Level 1 or 2
+    OSSVerse -> OSSVerse: Publishes Open Call for New OASP (with Lowest Cost Criteria)
+    NewOASP -> OSSVerse: Applies for OASP License (with new PoI/MoI)
+
+    alt New OASP Awarded License
+        OSSVerse -> NewOASP: Provides BeS Env & Playbook
+        NewOASP -> NewOASP: Fetches/Curates BeS Lab Env & Playbook
+        NewOASP -> NewOASP: Performs Assessment & Evaluation
+        NewOASP -> OSSVerse: Submits Attested OSAR Report
+        OSSVerse -> OSSVerse: Evaluates OSAR & Verifies Playbook Execution
+        alt OSAR & Playbook Execution Satisfactory
+            NewOASP -> OSSVerse: Curates & Publishes Final BeS Env & Playbook to Marketplace
+            OSSVerse -> OSSVerse: Generates & Issues TAVOSS Certificate to NewOASP
+            OSSVerse -> NewOASP: Grants TAVOSS Certificate (Proof of Attestation)
+            OSSVerse -> OSSVerse: Generates & Issues License to NewOASP
+            OSSVerse -> NewOASP: Grants OASP License & Onboards
+            OSSVerse -> Beckn: Updates OASP Status for PoI (NewOASP now listed)
+            OSSVerse -> OSSVerse: Generates & Issues Certificate to Client
+            OSSVerse -> Client: Grants Certificate (Trusted & Certified OSS)
+            alt Client Wants to Become OASP
+                OSSVerse -> OSSVerse: Generates & Issues License to Client
+                OSSVerse -> Client: Onboards as OASP
+                OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+            end 
+        else OSAR or Playbook Execution Not Satisfactory
+            OSSVerse -> Client: Further Action Required (OSAR highlights areas for improvement)
+        end
+    end
+end
+
+alt No OASP with Matching PoI & Assurance Level 3+
+    OSSVerse -> OSSVerse: Publishes Bid Invitation
+    Tocomo -> OSSVerse: Responds to Bid
+    Greenhill -> OSSVerse: Responds to Bid
+    Openfort -> OSSVerse: Responds to Bid
+    OSSVerse -> OSSVerse: Evaluates Bids & Selects 3 OASPs
+    OSSVerse -> Tocomo: Selects for Assessment
+    OSSVerse -> Greenhill: Selects for Assessment
+    OSSVerse -> Openfort: Selects for Assessment
+    Tocomo -> Tocomo: Fetches/Curates BeS Env & Playbook
+    Tocomo -> Tocomo: Performs Assessment & Evaluation
+    Greenhill -> Greenhill: Fetches/Curates BeS Env & Playbook
+    Greenhill -> Greenhill: Performs Assessment & Evaluation
+    Openfort -> Openfort: Fetches/Curates BeS Env & Playbook
+    Openfort -> Openfort: Performs Assessment & Evaluation
+    Tocomo -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Greenhill -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    Openfort -> OSSVerse: Publishes OSAR with Attestation, BeS Playbook & Env
+    OSSVerse -> OSSVerse: Evaluates OSARs & Verifies Playbook Execution Results
+    alt All OSARs & Playbook Executions are Satisfactory
+        OSSVerse -> Tocomo: Issues TAVOSS Certificate 
+        OSSVerse -> Greenhill: Issues TAVOSS Certificate 
+        OSSVerse -> Openfort: Issues TAVOSS Certificate
+        OSSVerse -> Tocomo: Grants License 
+        OSSVerse -> Greenhill: Grants License 
+        OSSVerse -> Openfort: Grants License 
+        OSSVerse -> OSSVerse: Issues TAVOSS Certificate to Client
+        OSSVerse -> Client: Grants TAVOSS Certificate (Trusted & Certified OSS) 
+        alt Client Wants to Become OASP
+            OSSVerse -> OSSVerse: Generates & Issues License to Client
+            OSSVerse -> Client: Onboards as OASP
+            OSSVerse -> Beckn: Updates OASP Status for PoI (AssureOpen now listed)
+        end
+    else Some OSARs or Playbook Executions are Not Satisfactory
+        OSSVerse -> Client: Further Action Required (Assessments or project needs improvement)
+    end
+end
+@enduml

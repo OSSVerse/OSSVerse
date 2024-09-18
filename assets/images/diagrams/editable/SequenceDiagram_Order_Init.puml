@@ -1,0 +1,49 @@
+@startuml
+skin rose
+
+title "Sequence Diagram - Multi-OASP Order Processing"
+
+actor "OSSConsumer" as OSC
+boundary "OSSVerse" as OSSVerse
+entity "OASP(1)" as OASP1
+entity "OASP(2)" as OASP2
+
+
+
+
+OSC -> OSSVerse : Select "offering/s"
+
+OSSVerse -> OASP1: /Select - request - Assessment - OSS
+OSSVerse -> OASP2: /Select - request - Assessment - LLM Model
+
+OASP1 -> OSSVerse: /On_Select - quote(callback) - BeS env, playbooks, POA
+OASP2 -> OSSVerse: /On_Select - quote(callback) - BeS env, playbooks, POA
+
+OSSVerse -> OSSVerse: Complete Verification Steps/ A new order ...
+OSSVerse -> OSC: Present Quote
+OSC -> OSC: Verify Quote
+OSC -> OSSVerse: Confirm Order
+
+OSSVerse -> OASP1: /Init - Draft order for Assessment(DOA) - OSS
+OSSVerse -> OASP2: /Init - (DOA) - LLM Model
+
+OASP1 -> OSSVerse: /On_Init - Draft order & Payment Terms(PT)
+OASP2 -> OSSVerse: /On_Init - (PT)
+
+OSSVerse -> OSC: Present Payment Terms
+OSC -> OSC: Complete payment transaction
+
+OSC -> OSSVerse: Update Payment status
+
+
+OSSVerse -> OASP1: /Confirm - Payment details(PD)
+OSSVerse -> OASP2: /Confirm - (PD)
+
+OASP1 -> OSSVerse: /On_Confirm - Order Confirmation(OC) - Share Certificate
+OASP2 -> OSSVerse: /On_Confirm - (OC) - Share Certificate
+
+OSSVerse -> OSC: Present Certificate
+OSC -> OSSVerse:  Submit Download Certificate
+OSSVerse -> OSC: Certificate download
+
+@enduml

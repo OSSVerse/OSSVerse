@@ -1,0 +1,70 @@
+@startuml
+
+skin rose
+
+title "Sequence diagram - OASPs service Discovery"
+
+actor "OSSConsumer" as Buyer
+
+
+Buyer -> OSSVerse.com: Search catalogue
+OSSVerse.com -> "Network Gateway": /Search
+database "OASP Network Registry"
+"Network Gateway" -> "OASP Network Registry": lookup
+"OASP Network Registry" -> "Network Gateway": 200
+"Network Gateway" -> OSSVerse.com: ACK
+
+entity "OASP(1)" as OASP1
+entity "OASP(2)" as OASP2@startuml
+
+skin rose
+
+title "Sequence diagram - OASPs service Discovery"
+
+actor "OSSConsumer" as Buyer
+boundary "OSSVerse" as OSSVerse
+
+
+Buyer -> OSSVerse: Search catalogue
+OSSVerse -> "Network Gateway": /Search
+database "OASP Network Registry"
+"Network Gateway" -> "OASP Network Registry": lookup
+"OASP Network Registry" -> "Network Gateway": 200
+"Network Gateway" -> OSSVerse: ACK
+
+entity "OASP(1)" as OASP1
+entity "OASP(2)" as OASP2
+entity "OASP(n)" as OASPn
+
+"Network Gateway" -> OASP1: /Search
+"Network Gateway" -> OASP2: /Search
+"Network Gateway" -> OASPn: /Search
+
+OASP1 -> "Network Gateway": /On_Search - callback
+OASP2 -> "Network Gateway": /On_Search - callback
+OASPn -> "Network Gateway": /On_Search - callback
+
+"Network Gateway" -> "Network Gateway": Catalogue Aggregation of all OASPs
+"Network Gateway" -> OSSVerse: /On_Search - callback
+
+
+OSSVerse -> Buyer: Display OASPs offerings
+
+@enduml
+entity "OASP(n)" as OASPn
+
+"Network Gateway" -> OASP1: /Search
+"Network Gateway" -> OASP2: /Search
+"Network Gateway" -> OASPn: /Search
+
+OASP1 -> "Network Gateway": /On_Search - callback
+OASP2 -> "Network Gateway": /On_Search - callback
+OASPn -> "Network Gateway": /On_Search - callback
+
+"Network Gateway" -> "Network Gateway": Catalogue Aggregation of all OASPs
+"Network Gateway" -> OSSVerse.com: /On_Search - callback
+
+
+OSSVerse.com -> Buyer: Display OASPs offerings
+
+@enduml
