@@ -1,4 +1,7 @@
 ---
 template: overrides/home.html
-title: binbash
+title: Home
+hide:
+    - navigation
+    - toc
 ---
