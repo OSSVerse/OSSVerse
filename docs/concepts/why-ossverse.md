@@ -1,4 +1,3 @@
-## Why OSSVerse?
 Many organizations lack internal expertise to effectively assure and remediate open-source models, creating a demand for external services such as Open-source Assurance Service Providers (OASP). Organizations require  timely support for open-source models, datasets, and projects.
 
 !!! info "Did you know?"

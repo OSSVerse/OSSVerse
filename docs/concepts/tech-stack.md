@@ -1,4 +1,3 @@
-# Tech Stack
 OSSVerse is built around the [Beckn Protocol](https://aws.amazon.com/architecture/well-architected/) and it uses a stack that includes [Beckn-Onix](https://www.terraform.io/), [BeSecure](https://www.ansible.com/), [BeSLab](https://helm.sh/) and other tools.
 
 We are also adopters and supporters of Open Source and the Cloud Native movement, which should become self-evident as you keep exploring our technology stack.

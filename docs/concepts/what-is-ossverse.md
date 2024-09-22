@@ -1,4 +1,3 @@
-## What is OSSVerse?
 OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platforms. It is an adaptation of ONDC and Beckn protocol for open source software service delivery . OSSVerse leverages BeSecure(BeS) for delivering open source software security assurance services. OSSVerse aims to establish an open network of OASPs for businesses that will offer trustworthy and reliable open source software assurance services.
 
 ## Key Stakeholders
