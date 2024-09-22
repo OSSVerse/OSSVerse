@@ -1,4 +1,4 @@
-# What can OSSVerse do for you?
+## What can OSSVerse do for you?
 Still not convinced? Check out the following sections which describe what OSSVerse can bring on the table depending on the type of participant in the decentralized marketplace.
 
 ## OSSVerse for Open Source Projects and ML Model Consumers
