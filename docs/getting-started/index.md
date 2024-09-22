@@ -1,5 +1,3 @@
-![binbash-logo](/assets/images/logos/binbash-leverage-header.png "binbash"){: style="width:800px"}
-
 # Try Leverage
 
 ## Before you begin
