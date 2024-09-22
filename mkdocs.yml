@@ -1,113 +1,105 @@
-# ref link: https://alinex.gitlab.io/env/mkdocs/
-#===================================================================================#
-# Site Information
-#===================================================================================#
-site_name: binbash Leverage™
-repo_name: "OSSVerse/OSSVerse"
-repo_url: https://github.com/OSSVerse/OSSVerse
-site_url: https://leverage.binbash.co/
-site_description: OSSVerse Documentation
-site_author: binbash
-copyright: Copyright &copy; 2017-2023 <a href="https://www.binbash.co">binbash</a>
+# Project information
+site_name: OSSVerse
+site_description: >-
+  A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components.
 
-#===================================================================================#
-# Mkdocs Theme (Material Mkdocs) + Extras
-#===================================================================================#
+# Repository
+repo_name: OSSVerse/OSSVerse
+repo_url: https://github.com/OSSVerse/OSSVerse
+edit_uri: ""
+
+# Copyright
+# #
+
+# Configuration
 theme:
-  name: material
-  custom_dir: material
+  name: null
+  custom_dir: !ENV [THEME_DIR, "bes_theme"]
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
   language: en
-  #logo: assets/images/logos/binbash-icon.png
-  icon: # https://www.materialpalette.com/icons
-    logo: material/book-open-page-variant
-  favicon: assets/images/logos/favicon.ico
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: bes_theme/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: bes_theme/toggle-switch
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
-  features:
-    - navigation.tabs
-    - navigation.instant
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.top
-    - navigation.footer
-    - header.autohide
-    - content.action.edit
-    #- content.tabs.link #Insiders only so far
-    - content.code.annotate
-  palette: # https://www.materialpalette.com/colors
-    - scheme: default
-      #primary: "teal" # comment to replace by /docs/assets/stylesheets
-      accent: deep purple
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      #primary: "teal" # comment to replace by /docs/assets/stylesheets
-      accent: teal
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  favicon: assets/favicon.png
+  # logo: assets/favicon.png
+  icon:
+    logo: logo
 
-  include_sidebar: true
+# # Plugins
+# plugins:
+#   - search
+#   - redirects:
+#       redirect_maps:
+#         changelog/insiders.md: insiders/changelog.md
+#         extensions/admonition.md: reference/admonitions.md
+#         extensions/codehilite.md: reference/code-blocks.md
+#         extensions/footnotes.md: reference/footnotes.md
+#         extensions/metadata.md: reference/meta-tags.md
+#         extensions/permalinks.md: setup/setting-up-navigation.md #permalink
+#         extensions/pymdown.md: reference/admonitions.md
+#         plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
+#         plugins/search.md: setup/setting-up-site-search.md
+#         releases/4.md: upgrading.md #upgrading-from-4x-to-5x
+#         releases/5.md: upgrading.md #upgrading-from-3x-to-4x
+#         releases/changelog.md: changelog.md
+#         setup/adding-social-links.md: setup/setting-up-the-footer.md
+#         sponsorship.md: insiders/index.md
+#   - minify:
+#       minify_html: true
 
-extra:
-  #generator: false
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+# Customization
+# extra:
+#   analytics:
+#     provider: google
+#     # property: !ENV GOOGLE_ANALYTICS_KEY
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/squidfunk
+#     - icon: fontawesome/brands/gitter
+#       link: https://gitter.im/squidfunk/Be-Secure
+#     - icon: fontawesome/brands/docker
+#       link: https://hub.docker.com/r/squidfunk/Be-Secure/
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/squidfunk
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/squidfunk/
+#     - icon: fontawesome/brands/instagram
+#       link: https://instagram.com/squidfunk
 
-## Temporally only available for Insiders
-## (https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#was-this-page-helpful)
-#    feedback:
-#      title: Was this page helpful?
-#      ratings:
-#        - icon: material/emoticon-happy-outline
-#          name: This page was helpful
-#          data: 1
-#          note: >-
-#            Thanks for your feedback!
-#        - icon: material/emoticon-sad-outline
-#          name: This page could be improved
-#          data: 0
-#          note: >-
-#            Thanks for your feedback! Help us improve this page by
-#            using our <a href="..." target=_blank>feedback form</a>.
-
-  social:
-    - icon: material/home
-      link: 'https://www.binbash.co'
-    - icon: material/github
-      link: 'https://github.com/binbashar'
-    - icon: material/linkedin
-      link: 'https://www.linkedin.com/company/binbash'
-    - icon: material/slack
-      link: 'https://join.slack.com/t/binbashar/shared_invite/zt-fw1692b6-9k4ADsWJ47lKacszphXM1w'
-    - icon: material/youtube
-      link: 'https://www.youtube.com/channel/UCUjQ3duzxQB_VtNsKNqPwDA/playlists'
-    - icon: fontawesome/brands/medium
-      link: 'https://medium.com/binbash-inc'
-    - icon: material/twitter
-      link: 'https://twitter.com/binbash_devops'
-    - icon: material/docker
-      link: 'https://hub.docker.com/orgs/binbash'
-
-  alternate:
-    # Switch to English
-    - name: English
-      #link: https://leverage.binbash.co
-      link: /
-      lang: en
-
-    # Switch to Spanish
-    - name: Spanish
-      #link: https://leverage.binbash.co/es/
-      link: /es
-      lang: es
-
-#===================================================================================#
-# Mkdocs Markdown Extentions, Plugins & extras
-#===================================================================================#
+# Extensions
 markdown_extensions:
   - admonition
   - abbr
@@ -138,28 +130,54 @@ markdown_extensions:
       # insert a blank space before the character
       permalink: " ¶"
 
-plugins:
-  - search
-#  - awesome-pages
+  # - admonition
+  # - abbr
+  # - attr_list
+  # - def_list
+  # - footnotes
+  # - meta
+  # - md_in_html
+  # - toc:
+  #     permalink: true
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.critic
+  # - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:bes_themex.emoji.twemoji
+  #     emoji_generator: !!python/name:bes_themex.emoji.to_svg
+  # - pymdownx.highlight
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: Be-Secure
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid-experimental
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  # - pymdownx.tabbed
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
 
-extra_css:
-    - assets/stylesheets/extra.css
+# Page tree
+
 
 #===================================================================================#
 # Mkdocs Navigation Tree
 #===================================================================================#
 nav:
-  - Home:
-    - Home: "index.md"
-    - Welcome: "concepts/index.md"
-    - First steps: "try-leverage/index.md"
-    - How it works: "how-it-works/ref-architecture/index.md"
-    - User guide: "guide/index.md"
-    - Work with us: "work-with-us/index.md"
-    - License: "license.md"
-
+  - Home: index.md
   - Concepts:
-    - Index: "concepts/index.md"
+    - Overview: "concepts/index.md"
     - What is OSSVerse?: "concepts/what-is-ossverse.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
     - What can OSSVerse do for you?: "concepts/what-ossverse-can-do-for-you.md"
@@ -167,39 +185,44 @@ nav:
     - Next Steps: "concepts/next-steps.md"
 
   - Getting Started:
-    - Index: "getting-started/index.md"
-    - Creating your AWS Management account: "getting-started/aws-account-setup.md"
-    - Install Leverage CLI: "getting-started/local-setup.md"
-    - Create a Leverage project: "getting-started/leverage-project-setup.md"
-    - Configure the Management account: "getting-started/management-account.md"
-    - Enable SSO: "getting-started/enabling-sso.md"
-    - Configure the Security and Shared accounts: "getting-started/security-and-shared-accounts.md"
-    - Post-deployment: "getting-started/post-deployment.md"
-    - Add more AWS Accounts: "getting-started/add-aws-accounts.md"
+    - Overview: "getting-started/index.md"
+  #  - Creating your AWS Management account: "getting-started/aws-account-setup.md"
+  #  - Install Leverage CLI: "getting-started/local-setup.md"
+  #  - Create a Leverage project: "getting-started/leverage-project-setup.md"
+  #  - Configure the Management account: "getting-started/management-account.md"
+  #  - Enable SSO: "getting-started/enabling-sso.md"
+  #  - Configure the Security and Shared accounts: "getting-started/security-and-shared-accounts.md"
+  #  - Post-deployment: "getting-started/post-deployment.md"
+  #  - Add more AWS Accounts: "getting-started/add-aws-accounts.md"
 
-  - Guide:
-    - Index: "guide/index.md"
-    - Architecture:
-      - Overview: "guide/architecture/overview.md"
-      - Project Structure: "guide/architecture/dir-structure.md"
-      - Configuration: "guide/architecture/configuration.md"
-    - Releases:
-      - Releases and Versions: "guide/releases/releases-and-versions.md"
-      - Versions compatibility matrix: "guide/releases/versions-compatibility-matrix.md"
-    - OSSVerse-in-a-Box:
-      - Credentials: "guide/ossverse-in-a-box/credentials.md"
-      - Workflow: "guide/ossverse-in-a-box/workflow.md"
-      - Terraform State: "guide/ossverse-in-a-box/tf-state.md"
-      - References: "guide/ossverse-in-a-box/references.md"
-    - Troubleshooting:
-      - Overview: "guide/troubleshooting/index.md"
-      - General: "guide/troubleshooting/general.md"
-      - Credentials: "guide/troubleshooting/credentials.md"
+  - Developer Guide:
+    - Overview: "guide/index.md"
+  #  - Architecture:
+  #    - Overview: "guide/architecture/overview.md"
+  #    - Project Structure: "guide/architecture/dir-structure.md"
+  #    - Configuration: "guide/architecture/configuration.md"
+  #  - Releases:
+  #    - Releases and Versions: "guide/releases/releases-and-versions.md"
+  #    - Versions compatibility matrix: "guide/releases/versions-compatibility-matrix.md"
+  #  - OSSVerse-in-a-Box:
+  #    - Credentials: "guide/ossverse-in-a-box/credentials.md"
+  #    - Workflow: "guide/ossverse-in-a-box/workflow.md"
+  #    - Terraform State: "guide/ossverse-in-a-box/tf-state.md"
+  #    - References: "guide/ossverse-in-a-box/references.md"
+  #  - Troubleshooting:
+  #    - Overview: "guide/troubleshooting/index.md"
+  #    - General: "guide/troubleshooting/general.md"
+  #    - Credentials: "guide/troubleshooting/credentials.md"
   - Join OSSVerse:
       - Overview: "join-ossverse/index.md"
-      - Support: "join-ossverse/support.md"
-      - Contribute: "join-ossverse/contribute.md"
-      - Team: "join-ossverse/team.md"
-      - Testimonials: "join-ossverse/testimonials.md"
-      - FAQs: "join-ossverse/faqs.md"
-      - Contact Us: "join-ossverse/contact.md"
+  #    - Support: "join-ossverse/support.md"
+  #    - Contribute: "join-ossverse/contribute.md"
+  #    - Team: "join-ossverse/team.md"
+  #    - Testimonials: "join-ossverse/testimonials.md"
+  #    - FAQs: "join-ossverse/faqs.md"
+  #    - Contact Us: "join-ossverse/contact.md"
+
+
+
+
+  

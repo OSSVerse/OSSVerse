@@ -1,12 +1,3 @@
----
-template: overrides/main.html
----
-
-![binbash-logo](/assets/images/logos/binbash-leverage-header.png "binbash"){: style="width:800px"}
-
-# Concepts
-
-## Welcome!
 Welcome to OSSVerse's documentation! Here you will find the concepts you need to understand to work with the decentralized marketplace, the steps to try OSSVerse by yourself, and the extensive documentation about every aspect of our solution.
 
 ## Getting Started
