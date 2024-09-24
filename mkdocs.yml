@@ -53,7 +53,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/images/icons/favicon.ico
   # logo: assets/favicon.png
   icon:
     logo: logo
@@ -176,53 +176,25 @@ markdown_extensions:
 #===================================================================================#
 nav:
   - Home: index.md
-  - Concepts:
-    - Overview: "concepts/index.md"
-    - What is OSSVerse?: "concepts/what-is-ossverse.md"
+  - Platform:
+    - OSSVerse: "concepts/overview.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
-    - What can OSSVerse do for you?: "concepts/what-ossverse-can-do-for-you.md"
+    - Roles You Can Play: "concepts/roles-you-can-play.md"
     - Tech Stack: "concepts/tech-stack.md"
     - Next Steps: "concepts/next-steps.md"
-
-  - Getting Started:
-    - Overview: "getting-started/index.md"
-  #  - Creating your AWS Management account: "getting-started/aws-account-setup.md"
-  #  - Install Leverage CLI: "getting-started/local-setup.md"
-  #  - Create a Leverage project: "getting-started/leverage-project-setup.md"
-  #  - Configure the Management account: "getting-started/management-account.md"
-  #  - Enable SSO: "getting-started/enabling-sso.md"
-  #  - Configure the Security and Shared accounts: "getting-started/security-and-shared-accounts.md"
-  #  - Post-deployment: "getting-started/post-deployment.md"
-  #  - Add more AWS Accounts: "getting-started/add-aws-accounts.md"
-
-  - Developer Guide:
-    - Overview: "guide/index.md"
-  #  - Architecture:
-  #    - Overview: "guide/architecture/overview.md"
-  #    - Project Structure: "guide/architecture/dir-structure.md"
-  #    - Configuration: "guide/architecture/configuration.md"
-  #  - Releases:
-  #    - Releases and Versions: "guide/releases/releases-and-versions.md"
-  #    - Versions compatibility matrix: "guide/releases/versions-compatibility-matrix.md"
-  #  - OSSVerse-in-a-Box:
-  #    - Credentials: "guide/ossverse-in-a-box/credentials.md"
-  #    - Workflow: "guide/ossverse-in-a-box/workflow.md"
-  #    - Terraform State: "guide/ossverse-in-a-box/tf-state.md"
-  #    - References: "guide/ossverse-in-a-box/references.md"
-  #  - Troubleshooting:
-  #    - Overview: "guide/troubleshooting/index.md"
-  #    - General: "guide/troubleshooting/general.md"
-  #    - Credentials: "guide/troubleshooting/credentials.md"
   - Join OSSVerse:
-      - Overview: "join-ossverse/index.md"
-  #    - Support: "join-ossverse/support.md"
-  #    - Contribute: "join-ossverse/contribute.md"
-  #    - Team: "join-ossverse/team.md"
-  #    - Testimonials: "join-ossverse/testimonials.md"
-  #    - FAQs: "join-ossverse/faqs.md"
-  #    - Contact Us: "join-ossverse/contact.md"
-
-
-
-
-  
+    - Overview: "getting-started/overview.md"
+  - Resources:
+    - Using OSSVerse: "resources/index.md"
+  - Developer:
+    - Architecture:
+      - Overview: "developer/architecture/overview.md"
+      - Project Structure: "developer/architecture/dir-structure.md"
+      - Configuration: "developer/architecture/configuration.md"
+    - Releases:
+      - Releases and Versions: "developer/releases/releases-and-versions.md"
+      - Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
+    - OSSVerse-in-a-Box:
+      - Credentials: "guide/ossverse-in-a-box/credentials.md"
+  - Community:
+    - Overview: "community/index.md"
