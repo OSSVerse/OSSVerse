@@ -1,4 +1,7 @@
-Check out the following sections which describe what OSSVerse can bring on the table depending on the type of participant in the decentralized marketplace.
+Read through the following sections which describe what OSSVerse can bring on the table depending on the type of participant in the decentralized marketplace.
+
+Check out this **marketplace transaction video** :octicons-video-16: that explains how can different parties transact in OSSVerse marketplace:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XTi-c3lrex8?si=z9TX1bKSKkOFqgXZ%22" title="OSSVerse Intro Video2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## OSSVerse for Open Source Projects and ML Model Consumers
 
