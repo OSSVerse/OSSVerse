@@ -2,7 +2,9 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 ## Video Presentation
 Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-vb9Qtz6mLs" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJJA6HYF-0I?si=iY551oTZbmJCIbrH%22" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XTi-c3lrex8?si=z9TX1bKSKkOFqgXZ%22" title="OSSVerse Intro Video2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Key Stakeholders
 A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components
