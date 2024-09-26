@@ -180,7 +180,7 @@ nav:
   - Platform:
     - OSSVerse: "concepts/overview.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
-    - Roles You Can Play: "concepts/roles-you-can-play.md"
+   # - Roles You Can Play: "concepts/roles-you-can-play.md"
    # - Tech Stack: "concepts/tech-stack.md"
    # - Next Steps: "concepts/next-steps.md"
   - Join OSSVerse:
