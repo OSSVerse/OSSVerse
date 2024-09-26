@@ -4,7 +4,7 @@
 The pages in this section explore, with great detail, the architecture of the components that make up Leverage.
 
 - [x] Reference Architectures
-    - [x] [Reference Architecture for AWS](ref-architecture-aws/overview/)
+    - [x] [Reference Architecture for OSSVerse](architecture/target-architecture.md)
     - [x] [Reference Architecture for EKS](ref-architecture-eks/overview/)
     - [x] [Reference Architecture for Ansible](ref-architecture-ansible/overview/)
 - [x] [Infrastructure-as-Code Library](infra-as-code-library/overview/)
