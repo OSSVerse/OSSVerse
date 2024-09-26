@@ -196,6 +196,6 @@ nav:
     #  - Releases and Versions: "developer/releases/releases-and-versions.md"
     #  - Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
     - OSSVerse-in-a-Box:
-    #  - Credentials: "guide/ossverse-in-a-box/credentials.md"
+      - Credentials: "guide/ossverse-in-a-box/credentials.md"
   - Community:
-   # - Overview: "community/index.md"
+    - Overview: "community/index.md"
