@@ -119,9 +119,9 @@ Yes, there are future plans to make the OSAR's output format compliant with an o
 
 # FAQ: Onboarding and Licensing Process in OSSVerse with Emphasis on Proof of Assessment/Attestation of OSAR
 
-## Is it necessary for an OASP to be TAVOSS certified to onboard onto OSSVerse? 
+## Is it mandatory for an Open Source Assurance Provider (OASP) to have a TAVOSS-certified project in order to join OSSVerse?
 
-No, an Open Source Assurance Provider (OASP) does not need to be TAVOSS certified to onboard onto OSSVerse. An OASP can cater to Assurance Level 1-2 by conducting minimal assessments and providing Proof of Assessment/Attestation of OSAR. TAVOSS certification is applicable to the OSSProject itself, not the OASP. An OASP receives a license for a specific OSSProject or a category of OSSProjects within OSSVerse.
+No, an Open Source Assurance Provider (OASP) does not need to have a TAVOSS certified project to onboard onto OSSVerse. An OASP can cater to Assurance Level 1-2 by conducting minimal assessments and providing Proof of Assessment/Attestation of OSAR. TAVOSS certification is applicable to the OSSProject itself, not the OASP. An OASP receives a license for a specific OSSProject or a category of OSSProjects within OSSVerse.
 
 ## Can an OASP cater only to lower assurance levels without TAVOSS certification?
 
