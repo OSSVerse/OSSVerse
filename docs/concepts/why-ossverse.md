@@ -27,8 +27,3 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) bac
 ??? question "**Fragmented Knowledge**"
     More content to be added here.
 
-### What is our solution?
-![OSSVerse-why](/assets/images/diagrams/marketplace.png "OSSVerse"){: style="width:950px"}
-<figcaption style="font-size:15px">
-<b>Figure:</b> Decentralized marketplace interactions between stakeholders.
-</figcaption>
