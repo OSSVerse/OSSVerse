@@ -189,13 +189,13 @@ nav:
     - Using OSSVerse: "resources/index.md"
   - Developer:
     - Architecture:
-      - Overview: "developer/architecture/overview.md"
-    #  - Project Structure: "developer/architecture/dir-structure.md"
+      - Overview: "developer/architecture/target-architecture.md"
+      - Features: "developer/architecture/features.md"
     #  - Configuration: "developer/architecture/configuration.md"
-    - Releases:
-      - Releases and Versions: "developer/releases/releases-and-versions.md"
-      - Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
-    - OSSVerse-in-a-Box:
-      - Credentials: "guide/ossverse-in-a-box/credentials.md"
+    #- Releases:
+      #- Releases and Versions: "developer/releases/releases-and-versions.md"
+      #- Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
+    #- OSSVerse-in-a-Box:
+      #- Credentials: "guide/ossverse-in-a-box/credentials.md"
   - Community:
     - Overview: "community/index.md"
