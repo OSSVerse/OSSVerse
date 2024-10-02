@@ -1,4 +1,4 @@
-## OSSVerse Marketplace Operator
+# OSSVerse Marketplace Operator
 
 The marketplace operator, in the context of OSSVerse that connects open source software consumers (buyers) with open source software assurance service providers (sellers), serves as a facilitator and intermediary to ensure the smooth functioning of transactions and interactions between these two groups. The role and responsibilities of such an operator can be detailed as follows:
 
