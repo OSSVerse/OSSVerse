@@ -7,14 +7,14 @@ Check out this **intro video** :octicons-video-16: that explains what OSSVerse i
 ## Key Stakeholders
 A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components
 
-- [x] [**Open Source Assurance Service Provider (OASP)**](concepts/oss-assurance-provider/): An organization that provides security assurance support services like risk assessment, a hardened version of the OSS artifact, remediation of one or more specific vulnerabilities. Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
+- [x] **Open Source Assurance Service Provider (OASP)**: An organization that provides security assurance support services like risk assessment, a hardened version of the OSS artifact, remediation of one or more specific vulnerabilities. Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
 
-- [x] [**Open Source Producers (Individuals & Organizations)**](/concepts/oss-producer/): Create and share open source models.
+- [x] **Open Source Producers (Individuals & Organizations)**: Create and share open source models.
 
-- [x] [**Open Source Consumers (Organizations)**](/concepts/oss-consumer): Consume and request for assurance services of open source models.
+- [x] **Open Source Consumers (Organizations)**: Consume and request for assurance services of open source models.
 
-- [x] [**Open Source Distributors (Platforms & Organizations)**](oss-distributor/): Distribute the sharing of open-source models along with the proof of attestation of models OASP.
+- [x] **Open Source Distributors (Platforms & Organizations)**: Distribute the sharing of open-source models along with the proof of attestation of models OASP.
 
-- [x] [**Security Experts & Freelancers**](/concepts/security-experts/): Offering open-source security assessments and support services.
+- [x] **Security Experts & Freelancers**: Offering open-source security assessments and support services.
 
-- [x] [**Open Source Marketplace operator/consortia**](/concepts/ossverse-operator/): Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
+- [x] **Open Source Marketplace operator/consortia**: Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
