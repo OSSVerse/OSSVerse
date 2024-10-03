@@ -55,7 +55,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/icons/favicon.ico
-  # logo: assets/favicon.png
+  logo: assets/images/icons/favicon.ico
   icon:
     logo: logo
 
@@ -180,12 +180,12 @@ nav:
   - Platform:
     - OSSVerse: "concepts/overview.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
-    - Stakeholders:
-      - Assurance Provider: "concepts/oss-assurance-provider.md"
-      - Producer: "concepts/oss-producer.md"
-      - Consumer: "concepts/oss-consumer.md"
-      - Distributor: "concepts/oss-distributor.md"
-      - Operator: "concepts/ossverse-operator.md"
+    - Participants:
+      - OASP: "concepts/oss-assurance-provider.md"
+      - OSS Producer: "concepts/oss-producer.md"
+      - OSS Consumer: "concepts/oss-consumer.md"
+      - OSS Distributor: "concepts/oss-distributor.md"
+      - Marketplace Operator: "concepts/ossverse-operator.md"
     # - Roles You Can Play: "concepts/roles-you-can-play.md"
     # - Tech Stack: "concepts/tech-stack.md"
     # - Next Steps: "concepts/next-steps.md"
@@ -194,14 +194,12 @@ nav:
   - Resources:
     - Using OSSVerse: "resources/index.md"
   - Developer:
-    - Architecture:
-      - Overview: "developer/architecture/target-architecture.md"
-      - Features: "developer/architecture/features.md"
-    #  - Configuration: "developer/architecture/configuration.md"
-    #- Releases:
-      #- Releases and Versions: "developer/releases/releases-and-versions.md"
-      #- Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
-    #- OSSVerse-in-a-Box:
-      #- Credentials: "guide/ossverse-in-a-box/credentials.md"
+    - Getting Started: "developer/overview.md" 
+    - Architecture: "developer/target-architecture.md"
+    - Projects: "developer/projects.md"
+    - API Reference: 
+      - Buyer App: "developer/api-reference/ossverse-buyer-app.md"
+      - OASP Seller App: "developer/api-reference/oasp-seller-app.md"
+    - OSSVerse-in-a-Box: "developer/ossverse-in-a-box.md"
   - Community:
     - Overview: "community/index.md"
