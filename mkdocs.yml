@@ -2,7 +2,6 @@
 site_name: OSSVerse
 site_description: >-
   A revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
-# A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components.
 
 # Repository
 repo_name: OSSVerse/OSSVerse
@@ -55,7 +54,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/icons/favicon.ico
-  # logo: assets/favicon.png
+  logo: assets/images/icons/favicon.ico
   icon:
     logo: logo
 
@@ -131,47 +130,6 @@ markdown_extensions:
       # insert a blank space before the character
       permalink: " ¶"
 
-  # - admonition
-  # - abbr
-  # - attr_list
-  # - def_list
-  # - footnotes
-  # - meta
-  # - md_in_html
-  # - toc:
-  #     permalink: true
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem:
-  #     smart_enable: all
-  # - pymdownx.caret
-  # - pymdownx.critic
-  # - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:bes_themex.emoji.twemoji
-  #     emoji_generator: !!python/name:bes_themex.emoji.to_svg
-  # - pymdownx.highlight
-  # - pymdownx.inlinehilite
-  # - pymdownx.keys
-  # - pymdownx.magiclink:
-  #     repo_url_shorthand: true
-  #     user: squidfunk
-  #     repo: Be-Secure
-  # - pymdownx.mark
-  # - pymdownx.smartsymbols
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid-experimental
-  #         format: !!python/name:pymdownx.superfences.fence_code_format
-  # - pymdownx.tabbed
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-  # - pymdownx.tilde
-
-# Page tree
-
-
 #===================================================================================#
 # Mkdocs Navigation Tree
 #===================================================================================#
@@ -180,12 +138,12 @@ nav:
   - Platform:
     - OSSVerse: "concepts/overview.md"
     - Why OSSVerse?: "concepts/why-ossverse.md"
-    - Stakeholders:
-      - Assurance Provider: "concepts/oss-assurance-provider.md"
-      - Producer: "concepts/oss-producer.md"
-      - Consumer: "concepts/oss-consumer.md"
-      - Distributor: "concepts/oss-distributor.md"
-      - Operator: "concepts/ossverse-operator.md"
+    - Participants:
+      - OASP: "concepts/oss-assurance-provider.md"
+      - OSS Producer: "concepts/oss-producer.md"
+      - OSS Consumer: "concepts/oss-consumer.md"
+      - OSS Distributor: "concepts/oss-distributor.md"
+      - Marketplace Operator: "concepts/ossverse-operator.md"
     # - Roles You Can Play: "concepts/roles-you-can-play.md"
     # - Tech Stack: "concepts/tech-stack.md"
     # - Next Steps: "concepts/next-steps.md"
@@ -194,14 +152,12 @@ nav:
   - Resources:
     - Using OSSVerse: "resources/index.md"
   - Developer:
-    - Architecture:
-      - Overview: "developer/architecture/target-architecture.md"
-      - Features: "developer/architecture/features.md"
-    #  - Configuration: "developer/architecture/configuration.md"
-    #- Releases:
-      #- Releases and Versions: "developer/releases/releases-and-versions.md"
-      #- Versions compatibility matrix: "developer/releases/versions-compatibility-matrix.md"
-    #- OSSVerse-in-a-Box:
-      #- Credentials: "guide/ossverse-in-a-box/credentials.md"
+    - Getting Started: "developer/overview.md" 
+    - Architecture: "developer/target-architecture.md"
+    - Projects: "developer/projects.md"
+    - API Reference: 
+      - Buyer App: "developer/api-reference/ossverse-buyer-app.md"
+      - OASP Seller App: "developer/api-reference/oasp-seller-app.md"
+    - OSSVerse-in-a-Box: "developer/ossverse-in-a-box.md"
   - Community:
     - Overview: "community/index.md"
