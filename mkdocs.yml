@@ -58,8 +58,6 @@ theme:
   icon:
     logo: logo
 
-plugins:
-  - swagger-ui-tag
 
 # # Plugins
 # plugins:

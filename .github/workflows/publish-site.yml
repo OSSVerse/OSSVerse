@@ -42,7 +42,7 @@ jobs:
 
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
-             pip install mkdocs-swagger-ui-tag
+
       - run: mkdocs build
       - run: echo "${{ github.ref }}"
       - name: Deploy
