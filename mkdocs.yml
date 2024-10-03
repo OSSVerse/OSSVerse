@@ -2,7 +2,6 @@
 site_name: OSSVerse
 site_description: >-
   A revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
-# A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their open source components.
 
 # Repository
 repo_name: OSSVerse/OSSVerse
@@ -130,47 +129,6 @@ markdown_extensions:
   - toc:
       # insert a blank space before the character
       permalink: " ¶"
-
-  # - admonition
-  # - abbr
-  # - attr_list
-  # - def_list
-  # - footnotes
-  # - meta
-  # - md_in_html
-  # - toc:
-  #     permalink: true
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem:
-  #     smart_enable: all
-  # - pymdownx.caret
-  # - pymdownx.critic
-  # - pymdownx.details
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:bes_themex.emoji.twemoji
-  #     emoji_generator: !!python/name:bes_themex.emoji.to_svg
-  # - pymdownx.highlight
-  # - pymdownx.inlinehilite
-  # - pymdownx.keys
-  # - pymdownx.magiclink:
-  #     repo_url_shorthand: true
-  #     user: squidfunk
-  #     repo: Be-Secure
-  # - pymdownx.mark
-  # - pymdownx.smartsymbols
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid-experimental
-  #         format: !!python/name:pymdownx.superfences.fence_code_format
-  # - pymdownx.tabbed
-  # - pymdownx.tasklist:
-  #     custom_checkbox: true
-  # - pymdownx.tilde
-
-# Page tree
-
 
 #===================================================================================#
 # Mkdocs Navigation Tree
