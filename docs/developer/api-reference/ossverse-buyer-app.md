@@ -1,0 +1,1 @@
+<swagger-ui src="https://github.com/OSSVerse/OSSVerse-Buyer-App/blob/main/swagger.json">
