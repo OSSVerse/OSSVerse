@@ -42,7 +42,8 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 6. [**TAVOSS Version & Certification Service**](TAVOSS Version & Certification Service)
 
    
-**1. Assurance & Assessment Service:** Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. 
+### **1. Assurance & Assessment Service:** 
+Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. 
 
 **1.1 Assurance Levels & Services**
 
@@ -90,18 +91,19 @@ This checklist outlines the key steps involved in assessing the security, qualit
 
 **Note:**  Playbook names are provided in a generic way to emphasize their reusability across different projects. The actual playbook implementation would need to handle project-specific configurations and inputs. 
 
-2. **Validation & Verification Service**: (validated & verify if attestation has been done in line with the acceptable OSSVerse OASP Assessment Standard)
+### 2. **Validation & Verification Service**:
+(validated & verify if attestation has been done in line with the acceptable OSSVerse OASP Assessment Standard)
 
       1. Check BeS Environments (Exists/Linting)
       2. Check Playbooks w.rt each Check part of Assessment claimed.
       3. OSAR(Open source assessment/attestation Report) updated with Proof of Verfication & Validation as evidence to be shared (This could be inline with an accept standard like Attestation standard like CycloneDX Attestation standard)
 
-3. **Remediation Service**:
-4. **Pentesting Service**:
-5. **Feature Addition**:
-6. **TAVOSS Version & Certification Service**: (Certification with or without/Distribution?/hosting?)
+### 3. **Remediation Service**:
+### 4. **Pentesting Service**:
+### 5. **Feature Addition**:
+### 6. **TAVOSS Version & Certification Service**: (Certification with or without/Distribution?/hosting?)
   
-**Business Support Services**
+## **Business Support Services**
 
 # Technical Architecture
 
