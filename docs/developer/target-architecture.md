@@ -33,10 +33,10 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
     Searching for an OASP for an identified open source component for certification (On Demand)
 
 ## OASP Services
-
-1. [**Assurance & Assessment Service**](#1.-Assurance-&-Assessment-Service)
+ 
+1. [**Assurance & Assessment Service**](###1.-assurance-&-assessment-service:)
 2. [**Validation & Verification Service**](#Validation-&-Verification-Service)
-3. [**Remediation Service**](#Remediation-Service)
+3. [**Remediation Service**](###3.remediation-service)
 4. [**Pentesting Service**](#Pentesting-Service)
 5. [**Feature Addition**](###Feature-Addition)
 6. [**TAVOSS Version & Certification Service**](###TAVOSS-Version-&-Certification-Service)
