@@ -10,7 +10,7 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 1.2.1.1 Onboarding services :
    
-   ### **Account Creation:**
+### **Account Creation:**
    
    **OASP**
    
@@ -105,21 +105,21 @@ This checklist outlines the key steps involved in assessing the security, qualit
   
 ## **Business Support Services**
 
-# Technical Architecture
+## Technical Architecture
 
-# Communication between BeSlab & OSSVerse
+## Communication between BeSlab & OSSVerse
 
-# OSSVerse as A BAP/BG/Open Network Registry
+## OSSVerse as A BAP/BG/Open Network Registry
 
 ![Component Diagram](/docs/images/component-diagram.png)
 
-# OASP as BPP 
+## OASP as BPP 
 
   Extending BeSLab as a BPP
 
-# BeS : Establish provenance & presentation of Proofs
+## BeS : Establish provenance & presentation of Proofs
   
-# BeS : OSAR 
+## BeS : OSAR 
 
 
 
