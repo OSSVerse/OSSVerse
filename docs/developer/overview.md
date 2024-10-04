@@ -1,4 +1,4 @@
-## Developer Guide
+# Developer Guide
 The developer guide is designed to help and assist Network Participants on their technical journey with step-by-step instructions for seamless integration on the network. The guide gives a complete walkthrough of the API Specifications for different open source projects such as the buyer app, oasp seller app, OSSVerse-in-a-Box. It includes resources like reference materials, code snippets, illustrative examples, and frequently asked questions (FAQs) - making it easy to understand and use.
 
 ## Business Context 
