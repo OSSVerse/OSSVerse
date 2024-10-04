@@ -34,7 +34,7 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
 
 ## OASP Services
 
-1. [**Assurance & Assessment Service**](#Assurance-&-Assessment-Service)
+1. [**Assurance & Assessment Service**](#1.-Assurance-&-Assessment-Service)
 2. [**Validation & Verification Service**](#Validation-&-Verification-Service)
 3. [**Remediation Service**](#Remediation-Service)
 4. [**Pentesting Service**](#Pentesting-Service)
