@@ -20,7 +20,7 @@
 ??? info "What is the process for issuing a TAVOSS Certification?"
     The issuance of a TAVOSS Certification is the final step in the process, conducted by the OSSVerse Certification service. This step comes after establishing the validity of all proofs submitted by OASPs, either individually or as part of a quorum (i.e., multi-party attestation). The certification is a testament that the OASP has validated the BeS Environment & BeSPlaybooks for the project, and that the execution and verification of the playbooks in the OSAR have been satisfactorily completed.
 
-## Understanding OSAR and Its Connection to Certificates and Attestation
+## OSAR : Its connection to certificates and attestation
 
 ??? info "What is an OSAR?"
     An Open Source Assessment Report (OSAR) is the output produced by executing the BeSPlaybook. It serves as a detailed document that outlines the findings and outcomes of the assessment process.
