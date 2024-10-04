@@ -150,10 +150,10 @@ nav:
   - How To Join:
     - Sellers (OASP): "how-to-join/oss-assurance-provider.md"
     - Buyers (Business): "how-to-join/bes-lab.md"
-  - FAQ: "faq.md"
+  - FAQ: "concepts/faq.md"
   - Developer:
     - Getting Started: "developer/overview.md"
-    - Tech Stack: "concepts/tech-stack.md" 
+    - Tech Stack: "developer/tech-stack.md" 
     - Architecture: "developer/target-architecture.md"
     - Projects: "developer/projects.md"
     - API Reference: 
