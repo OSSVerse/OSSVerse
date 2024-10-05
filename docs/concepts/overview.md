@@ -34,9 +34,9 @@ OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to o
 ### Participants
 OSSVerse identifies 3 types of players - Buyer Participant, Seller Participant and OSSVerse Network. In an unbundled network, there needs to be a seamless interaction between all participants to facilitate end-to-end transactions. Different participants have different roles and responsibilities in the network.
 
-- [x] **Business (OSS Consumers | OSS Producers | OSS Distributors)** : The Buyers
-- [x] **Open Source Assurance Service Provider (OASP)** : The Sellers
-- [x] **OSSVerse** : The Marketplace
+- [x] **Buyers** : **Business (open source Consumers (OSSConsumers), Producers (OSSProducers) & Distributors (OSSDistributors))** 
+- [x] **Sellers** : **Open Source Assurance Service Provider (OASP)** : 
+- [x] **The Marketplace** : **OSSVerse** : 
 
 ### The Seller
 - [x] **Open Source Assurance Service Provider (OASP)**: An organization that provides security assurance support services like risk assessment, a hardened version of the OSS artifact, remediation of one or more specific vulnerabilities. Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
@@ -48,5 +48,5 @@ OSSVerse identifies 3 types of players - Buyer Participant, Seller Participant a
 
 - [x] **Open Source Distributors (Platforms & Organizations)**: Distribute the sharing of open-source models along with the proof of attestation of models OASP.
 
-### The Network
-- [x] **Open Source Marketplace operator/consortia**: Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
+### Marketplace Operators
+- [x]  Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
