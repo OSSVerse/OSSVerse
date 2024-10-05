@@ -42,23 +42,25 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
 ## Network Participanats
 
 ### Buyers 
-1. Open Source Model Producers (Individuals & Organizations)
-    - Create and share open source models
-2. Open Source Model Consumers (Organizations)
-    - Consume and request for assurance services of open source models 
-3. Open Source Model Distributors (Platforms & Organizations)
-    - Distribute the sharing of open-source models along with the proof of attestation of models OASP
+1. Open Source Producers (OSSProducers)
+    - Orginal creator author, inventors, publisher, contributors or maintainers  of open source projects, model , open source datasets or solutions.
+2. Open Source Consumers (OSSConusmers)
+    - Organization who are primarily consumers of open source projectts, model or training data sets. Looking for support with evaluation , assurance and open source vendor management services. 
+3. Open Source  Distributors (OSSDistributors)
+    - Oranganization that bundle or distribute open source software downsteam to its customers .They are looking at support with security assurance , open source riske & compliance assessments. 
+
 ### Sellers
 1. Open Source Assurance Service Provider (OASP)
     - Provide Validation, Verification, Attestation & Support Service
-    - Set up dedicated remediated pipelines for organizations
-    - Validate models, create model cards & ensure quality/security
+    - Set up dedicated remediated pipelines for organizations and open source security labs
+    - Validate open source projects, open source models,open source training datasets and offers security verification and assurance services to organizations.
+
 2. Security Experts & Freelancers
     - Offering open-source security assessments and support services
 
 ### Marketplace Operators
 1. Open Source Marketplace operator/consortia
-    - Deploys people resources to maintain and operate marketplace and responsible for  the governance marketplace
+    - Deploys people resources to maintain and operate marketplace and responsible forthe governance marketplace
 
 ## Different Open Source Software Services offered by OASPs
 - [x] **Security Assessment & Attestation Service**
