@@ -34,6 +34,8 @@ For organizations to sustain the power of open source solutions, they require ti
 
 A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open-source. OASP-led open source assurance service delivery would give full control over their open source components.
 
+![Marketplace](/docs/assets/images/diagrams/marketplace.png)
+
 ## Network Participants
 
 ### Buyers
