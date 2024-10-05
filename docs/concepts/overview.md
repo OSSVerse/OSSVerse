@@ -2,13 +2,6 @@
 
 OSSVerse is a revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
 
-## Key Features :
-
-**Open Network**: OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
-
-**Trust and Verification**: Every service provider on OSSVerse undergoes rigorous verification processes to ensure the quality and reliability of their offerings.
-
-**Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
 
 
 ## Why an Open Source Marketplace?
@@ -27,6 +20,15 @@ For organizations to sustain the power of open source solutions, they require ti
 ## OSSVerse as a Solution:
 
 A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open-source. OASP-led open source assurance service delivery would give full control over their open source components.
+
+## Key Features :
+
+**Open Network**: OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
+
+**Trust and Verification**: Every service provider on OSSVerse undergoes rigorous verification processes to ensure the quality and reliability of their offerings.
+
+**Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
+
 
 ![Marketplace](/docs/assets/images/diagrams/marketplace.png)
 
