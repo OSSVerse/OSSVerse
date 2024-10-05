@@ -138,7 +138,7 @@ nav:
   - Home: index.md
   - Platform:
     - OSSVerse: "concepts/overview.md"
-    - Why OSSVerse?: "concepts/overview.md"
+    - Why OSSVerse?: "concepts/overview.md#"
     - Participants:
       - Seller:
         - OASP: "concepts/oss-assurance-provider.md"
