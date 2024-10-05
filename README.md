@@ -94,9 +94,6 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
 - Legal Protection
 
 
-## OSSVerse : Intro Video
-Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJJA6HYF-0I?si=iY551oTZbmJCIbrH%22" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # FAQs on Registering and Evaluating OASPs in OSSVerse, TAVOSS Certification Process
 
