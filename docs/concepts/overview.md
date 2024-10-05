@@ -16,18 +16,6 @@
 3. **Secure Transactions:** OSSVerse facilitates secure and transparent transactions between businesses and service providers.
 4. **Assurance and Support:** OSSVerse ensures that businesses receive the necessary assurance and support throughout the engagement with service providers.
 
-## OASP Services Offering
-- [x] **Open-Source Software (OSS) Assurance Service**
-- [x] **Validation & Verification Service**
-- [x] **Remediation Service**
-- [x] **Pentesting Service**
-- [x] **Feature Addition**
-- [x] **TAVOSS Version & Certification Service**
-
-
-## Video Presentation
-Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJJA6HYF-0I?si=iY551oTZbmJCIbrH%22" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Why an Open Source Marketplace..
 
@@ -50,20 +38,6 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
 
 ![Marketplace](./docs/assets/images/diagrams/marketplace.png)
 
-## Key benefits to the enterprise client
-OSS Consumers:
-- Trustworthy Marketplace
-- Access Affordable & prompt Vendor-Neutral Security Services
-- Timely Support
-- Full Control
-
-OSS Producers:
-- Enhanced Trust and Credibility
-- Marketability
-- Compliance and Standards
-- Competitive Advantage
-- Quality Assurance
-- Legal Protection
 
 ## Network Participanats
 
@@ -79,35 +53,46 @@ OSS Producers:
     - Provide Validation, Verification, Attestation & Support Service
     - Set up dedicated remediated pipelines for organizations
     - Validate models, create model cards & ensure quality/security
-
 2. Security Experts & Freelancers
     - Offering open-source security assessments and support services
-### Operators
 
+### Marketplace Operators
 1. Open Source Marketplace operator/consortia
     - Deploys people resources to maintain and operate marketplace and responsible for  the governance marketplace
 
+## Different Open Source Software Services offered by OASPs
+- [x] **Security Assessment & Attestation Service**
+- [x] **Validation & Verification Service**
+- [x] **Open Source Software (OSS) Remediation Service**
+- [x] **OSS Pentesting Service**
+- [x] **OSS Feature Addition**
+- [X] **Trusted And Verified Open Source Software (TAVOSS) Version Support & Distribution**
+
+##  Marketplace Services
+- [x] **Sale of Open source software support & Subscription Services** 
+- [x] **OASP Discovery Service and open source vendor manaagement support for Business**
+- [x] **TAVOSS Certification Issuance for open source & Exchange of Verifiable Credentails**
+- [x] **OSS Security Lab Sertup and Support services for OASPs**
+- [x] **OASP License Issuance**
+      
+## Key benefits for Businesses
+
+**OSS Consumers**:
+- Trustworthy Marketplace
+- Access Affordable & prompt Vendor-Neutral Security Services
+- Timely Support
+- Full Control
+
+**OSS Producers**:
+- Enhanced Trust and Credibility
+- Marketability
+- Compliance and Standards
+- Competitive Advantage
+- Quality Assurance
+- Legal Protection
 
 
-## Open Network
-OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
+## Video Presentation
+Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJJA6HYF-0I?si=iY551oTZbmJCIbrH%22" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Participants
-OSSVerse identifies 3 types of players - Buyer Participant, Seller Participant and OSSVerse Network. In an unbundled network, there needs to be a seamless interaction between all participants to facilitate end-to-end transactions. Different participants have different roles and responsibilities in the network.
-
-- [x] **Buyers** : **Business (open source Consumers (OSSConsumers), Producers (OSSProducers) & Distributors (OSSDistributors))** 
-- [x] **Sellers** : **Open Source Assurance Service Provider (OASP)** : 
-- [x] **The Marketplace** : **OSSVerse** : 
-
-### The Seller
-- [x] **Open Source Assurance Service Provider (OASP)**: An organization that provides security assurance support services like risk assessment, a hardened version of the OSS artifact, remediation of one or more specific vulnerabilities. Provide Validation, Verification, Attestation & Support Service. Set up dedicated remediated pipelines for organizations, Validate models, create model cards & ensure quality/security.
-
-### The Buyer
-- [x] **Open Source Producers (Individuals & Organizations)**: Create and share open source models.
-
-- [x] **Open Source Consumers (Organizations)**: Consume and request for assurance services of open source models.
-
-- [x] **Open Source Distributors (Platforms & Organizations)**: Distribute the sharing of open-source models along with the proof of attestation of models OASP.
-
-### Marketplace Operators
-- [x]  Deploys people resources to maintain and operate marketplace and responsible for the governance marketplace.
