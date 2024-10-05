@@ -2,24 +2,6 @@
 
 OSSVerse is a revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
 
-## Key Features and Benefits:
-
-**Open Network**: OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
-
-**Trust and Verification**: Every service provider on OSSVerse undergoes rigorous verification processes to ensure the quality and reliability of their offerings.
-
-**Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
-
-## How OSSVerse Works:
-
-**Open Source Support Service Discovery**: Businesses can easily search for and discover open source software services that meet their specific needs.
-
-**Evaluation and Selection**: OSSVerse provides tools and resources to help businesses evaluate service providers and make informed decisions.
-
-**Secure Transactions**: OSSVerse facilitates secure and transparent transactions between businesses and service providers.
-
-**Assurance and Support**: OSSVerse ensures that businesses receive the necessary assurance and support throughout the engagement with service providers.
-
 ## Why an Open Source Marketplace?
 The widespread adoption of Open Source Software (OSS) across industries has brought immense innovation but also unique security challenges. One of the primary barriers to OSS adoption is the lack of trust. Given the vastness of the open source ecosystem, many organizations lack internal expertise or find it difficult to maintain dedicated teams to effectively evaluate, assess, and remediate open source components. Additionally, the fragmented open source vendor landscape and the complexities of managing multiple vendor support subscriptions have created a demand for external services such as Open Source Assurance Service Providers (OASP).
 
@@ -36,6 +18,15 @@ For organizations to sustain the power of open source solutions, they require ti
 ## OSSVerse as a Solution:
 
 A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open-source. OASP-led open source assurance service delivery would give full control over their open source components.
+
+## Key Features :
+
+**Open Network**: OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
+
+**Trust and Verification**: Every service provider on OSSVerse undergoes rigorous verification processes to ensure the quality and reliability of their offerings.
+
+**Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
+
 
 ![Marketplace](/docs/assets/images/diagrams/marketplace.png)
 
@@ -69,24 +60,22 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - OSS Security Lab Setup and Support Services for OASPs
 - OASP License Issuance
 
-### Key Benefits for Businesses
+### Benefits for Businesses
 
-**OSS Consumers:**
-
+ **Buyers**
+ 
 - Trustworthy Marketplace
 - Access Affordable & Prompt Vendor-Neutral Security Services
 - Timely Support
 - Full Control
 
-**OSS Producers:**
-
+**Sellers**
 - Enhanced Trust and Credibility
 - Marketability
 - Compliance and Standards
 - Competitive Advantage
 - Quality Assurance
 - Legal Protection
-
 
 
 
