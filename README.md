@@ -1,4 +1,4 @@
-## OSSVerse: A Trusted and Verified Open Source Software Services Marketplace
+# OSSVerse: A Trusted and Verified Open Source Software Services Marketplace
 
 **OSSVerse** is a revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
 
@@ -36,21 +36,21 @@ Organizations require  timely support for open-source models, datasets, and pr
 ## Solution to the problem
 A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their  open source components
 
-![Marketplace](./docs/assets/images/diagrams/marketplace.png)
+![Marketplace](/docs/assets/images/diagrams/marketplace.png)
 
 
-## Network Participanats
+## Network Participants
 
 ### Buyers 
-1. Open Source Producers (OSSProducers)
+1. Open Source Software Producers (OSSProducers)
     - Orginal creator author, inventors, publisher, contributors or maintainers  of open source projects, model , open source datasets or solutions.
-2. Open Source Consumers (OSSConusmers)
+2. Open Source Softwaare Consumers (OSSConusmers)
     - Organization who are primarily consumers of open source projectts, model or training data sets. Looking for support with evaluation , assurance and open source vendor management services. 
-3. Open Source  Distributors (OSSDistributors)
+3. Open Source Software Distributors (OSSDistributors)
     - Oranganization that bundle or distribute open source software downsteam to its customers .They are looking at support with security assurance , open source riske & compliance assessments. 
 
 ### Sellers
-1. Open Source Assurance Service Provider (OASP)
+1. **Open source Assurance Service Provider (OASP)**
     - Provide Validation, Verification, Attestation & Support Service
     - Set up dedicated remediated pipelines for organizations and open source security labs
     - Validate open source projects, open source models,open source training datasets and offers security verification and assurance services to organizations.
@@ -92,7 +92,6 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
 - Competitive Advantage
 - Quality Assurance
 - Legal Protection
-
 
 
 # FAQs on Registering and Evaluating OASPs in OSSVerse, TAVOSS Certification Process
