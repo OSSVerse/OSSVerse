@@ -39,7 +39,7 @@ A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) bac
 
 ### Sellers
 - **Open Source Assurance Service Provider (OASP):** Provide validation, verification, attestation, and support services. Set up dedicated remediated pipelines for organizations and open source security labs. Validate open source projects, open source models, open source training datasets, and offer security verification and assurance services to organizations.
-- **Security Experts & Freelancers:** Employment opportunities for Seurity experts and freelancer with OASPs offering open-source security assessments and support services.
+- **Security Experts & Freelancers:** Employment opportunities for Seurity experts and freelancer with OASPs offering open source security assessments and support services.
 
 ### Marketplace Operators
 
