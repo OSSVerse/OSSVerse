@@ -70,6 +70,7 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - Full Control
 
 **Sellers**
+
 - Enhanced Trust and Credibility
 - Marketability
 - Compliance and Standards
