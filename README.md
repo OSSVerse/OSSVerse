@@ -33,9 +33,9 @@ A trustworthy marketplace for Open Source Assurance Service Providers (OASP) bac
 ### Network Participants
 
 #### Buyers
-- **Open Source Software Producers (OSS Producers):** Original creator authors, inventors, publishers, contributors, or maintainers of open source projects, models, open source datasets, or solutions.
-- **Open Source Software Consumers (OSS Consumers):** Organizations that are primarily consumers of open source projects, models, or training data sets. Looking for support with evaluation, assurance, and open source vendor management services.
-- **Open Source Software Distributors (OSS Distributors):** Organizations that bundle or distribute open source software downstream to their customers. They are looking at support with security assurance, open source risk & compliance assessments.
+- **Open Source Software Producers (OSSP):** Original creator authors, inventors, publishers, contributors, or maintainers of open source projects, models, open source datasets, or solutions.
+- **Open Source Software Consumers (OSSC):** Organizations that are primarily consumers of open source projects, models, or training data sets. Looking for support with evaluation, assurance, and open source vendor management services.
+- **Open Source Software Distributors (OSSD):** Organizations that bundle or distribute open source software downstream to their customers. They are looking at support with security assurance, open source risk & compliance assessments.
 
 #### Sellers
 - **Open Source Assurance Service Provider (OASP):** Provide validation, verification, attestation, and support services. Set up dedicated remediated pipelines for organizations and open source security labs. Validate open source projects, open source models, open source training datasets, and offer security verification and assurance services to organizations.
