@@ -36,10 +36,10 @@ Organizations require  timely support for open-source models, datasets, and pr
 ## Solution to the problem
 A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their  open source components
 
-![Marketplace](./docs/assets/images/diagrams/marketplace.png)
+![Marketplace](/assets/images/diagrams/marketplace.png)
 
 
-## Network Participanats
+## Network Participants
 
 ### Buyers 
 1. Open Source Software Producers (OSSProducers)
@@ -50,7 +50,7 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
     - Oranganization that bundle or distribute open source software downsteam to its customers .They are looking at support with security assurance , open source riske & compliance assessments. 
 
 ### Sellers
-1. Open source Assurance Service Provider (OASP)
+1. **Open source Assurance Service Provider (OASP)**
     - Provide Validation, Verification, Attestation & Support Service
     - Set up dedicated remediated pipelines for organizations and open source security labs
     - Validate open source projects, open source models,open source training datasets and offers security verification and assurance services to organizations.
