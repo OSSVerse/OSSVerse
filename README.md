@@ -19,21 +19,18 @@
 
 ## Why an Open Source Marketplace..
 
-### State of open source in enterprise.
+The widespread adoption of Open Source Software (OSS) across industries has brought immense innovation but also unique security challenges. One of the primary barriers to OSS adoption is the lack of trust. Given the vastness of the open source ecosystem, many organizations lack internal expertise or find it difficult to maintain dedicated teams to effectively evaluate, assess, and remediate open source components. Additionally, the fragmented open source vendor landscape and the complexities of managing multiple vendor support subscriptions have created a demand for external services such as Open Source Assurance Service Providers (OASP).
 
-The widespread adoption of OSS (open source software) across industries has brought immense innovation but also unique security challenges. 
-One of the barriers to OSS adoption is the lack of Trust.
-Many organizations lack internal expertise to effectively assure and remediate open-source models, creating a demand for external services such as Open-source Assurance Service Providers (OASP).
-Organizations require  timely support for open-source models, datasets, and projects. 
+For organizations to sustain the power of open source solutions, they require timely support for consuming or onboarding open source components, such as open source projects, open source AI models, and open source training datasets.
 
-#### Consideration while adopting an Open source first Strategy
+#### Barriers while adopting an Open source 
 - Supply chain & Security Risks​
 - Limited Control and support​
 - Forking Costs​
 - Incomplete Security​, Uncertain Reliability​
 - Fragmented Knowledge​
 
-## Solution to the problem
+#### Solution to the problem : A Trustwor
 A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor neutral security services for organizations producing and consuming open-source. OASP led open source assurance service delivery would give full control over their  open source components
 
 ![Marketplace](/docs/assets/images/diagrams/marketplace.png)
