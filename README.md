@@ -62,7 +62,7 @@ A Trustworthy Marketplace for Open-Source Assurance Service Providers (OASP) ba
 1. Open Source Marketplace operator/consortia
     - Deploys people resources to maintain and operate marketplace and responsible forthe governance marketplace
 
-## Different Open Source Software Services offered by OASPs
+## Open Source Software Services offered by OASPs
 - [x] **Security Assessment & Attestation Service**
 - [x] **Validation & Verification Service**
 - [x] **Open Source Software (OSS) Remediation Service**
