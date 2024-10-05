@@ -1,4 +1,4 @@
-# Open Source Software Distributors
+# Open Source Software Distributors (OSSD)
 
 Open source software distributors are individuals, organizations, or companies that distribute software which is licensed in a way that allows its source code to be freely accessed, used, modified, and shared by anyone. These distributors play a crucial role in the open source ecosystem by making software easily accessible to both users and developers, and often contribute to the development and improvement of the software through community collaboration. There are several types of open source software distributors, including:
 
