@@ -7,7 +7,7 @@
 * **Open Network:** OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
 * **Trust and Verification:** Every service provider on OSSVerse undergoes rigorous verification processes to ensure the quality and reliability of their offerings.
 * **ONDC and Beckn Integration:** Built on the ONDC and Beckn protocols, OSSVerse enables seamless and efficient transactions within the open source software ecosystem.
-* **BeSecure Integration:** Leveraging BeSecure, OSSVerse provides robust open source software security assurance services, giving businesses peace of mind.
+* **Be-Secure(BeS) Integration:** Leveraging BeSecure, OSSVerse provides robust open source software security assurance services, giving businesses peace of mind.
 
 **How OSSVerse Works:**
 
