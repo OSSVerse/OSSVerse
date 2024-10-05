@@ -2,8 +2,6 @@
 
 OSSVerse is a revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
 
-
-
 ## Why an Open Source Marketplace?
 The widespread adoption of Open Source Software (OSS) across industries has brought immense innovation but also unique security challenges. One of the primary barriers to OSS adoption is the lack of trust. Given the vastness of the open source ecosystem, many organizations lack internal expertise or find it difficult to maintain dedicated teams to effectively evaluate, assess, and remediate open source components. Additionally, the fragmented open source vendor landscape and the complexities of managing multiple vendor support subscriptions have created a demand for external services such as Open Source Assurance Service Providers (OASP).
 
@@ -62,17 +60,16 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - OSS Security Lab Setup and Support Services for OASPs
 - OASP License Issuance
 
-### Key Benefits for Businesses
+### Benefits for Businesses
 
-**OSS Consumers:**
-
+ **Buyers**
+ 
 - Trustworthy Marketplace
 - Access Affordable & Prompt Vendor-Neutral Security Services
 - Timely Support
 - Full Control
 
-**OSS Producers:**
-
+**Sellers**
 - Enhanced Trust and Credibility
 - Marketability
 - Compliance and Standards
