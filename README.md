@@ -52,21 +52,28 @@ OSS Producers:
 - Quality Assurance
 - Legal Protection
 
-## Key Stakeholders
+## Network Participanats
+
+### Buyers 
 1. Open Source Model Producers (Individuals & Organizations)
     - Create and share open source models
 2. Open Source Model Consumers (Organizations)
     - Consume and request for assurance services of open source models 
 3. Open Source Model Distributors (Platforms & Organizations)
     - Distribute the sharing of open-source models along with the proof of attestation of models OASP
-4. Open Source Marketplace operator/consortia
-    - Deploys people resources to maintain and operate marketplace and responsible for  the governance marketplace
-5. Open Source Assurance Service Provider (OASP)
+### Sellers
+1. Open Source Assurance Service Provider (OASP)
     - Provide Validation, Verification, Attestation & Support Service
     - Set up dedicated remediated pipelines for organizations
     - Validate models, create model cards & ensure quality/security
-6. Security Experts & Freelancers
+
+2. Security Experts & Freelancers
     - Offering open-source security assessments and support services
+### Operators
+
+1. Open Source Marketplace operator/consortia
+    - Deploys people resources to maintain and operate marketplace and responsible for  the governance marketplace
+
 
 # FAQs on Registering and Evaluating OASPs in OSSVerse, TAVOSS Certification Process
 
