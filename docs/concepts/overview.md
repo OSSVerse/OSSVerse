@@ -17,7 +17,7 @@ For organizations to sustain the power of open source solutions, they require ti
 
 ## OSSVerse as a Solution:
 
-A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open-source. OASP-led open source assurance service delivery would give full control over their open source components.
+A trustworthy marketplace for Open Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open source. OASP-led open source assurance service delivery would give full control over their open source components.
 
 ### Key Features :
 
@@ -28,7 +28,7 @@ A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) bac
 **Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
 
 
-![Marketplace](/assets/images/diagrams/marketplace.png)
+![Marketplace](/docs/assets/images/diagrams/marketplace.png)
 
 ### Network Participants
 
