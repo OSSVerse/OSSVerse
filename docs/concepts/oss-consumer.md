@@ -1,1 +1,1 @@
-#  Open source consumers (OSSConsumers)
+#  Open Source Software Consumers (OSSC)
