@@ -7,7 +7,7 @@ The widespread adoption of Open Source Software (OSS) across industries has brou
 
 For organizations to sustain the power of open source solutions, they require timely support for consuming or onboarding open source components, such as open source projects, open source AI models, and open source training datasets.
 
-## Barriers to Open Source Adoption:
+### Barriers to Open Source Adoption:
 
 - Supply chain and security risks
 - Limited control and support
@@ -19,7 +19,7 @@ For organizations to sustain the power of open source solutions, they require ti
 
 A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) backed by a thriving open-source security community. Affordable and timely access to vendor-neutral security services for organizations producing and consuming open-source. OASP-led open source assurance service delivery would give full control over their open source components.
 
-## Key Features :
+### Key Features :
 
 **Open Network**: OSSVerse fosters an open network of Open Source Assurance Providers (OSAPs) to offer businesses a diverse range of security and assurance services.
 
@@ -30,22 +30,22 @@ A trustworthy marketplace for Open-Source Assurance Service Providers (OASP) bac
 
 ![Marketplace](/assets/images/diagrams/marketplace.png)
 
-## Network Participants
+### Network Participants
 
-### Buyers
+#### Buyers
 - **Open Source Software Producers (OSS Producers):** Original creator authors, inventors, publishers, contributors, or maintainers of open source projects, models, open source datasets, or solutions.
 - **Open Source Software Consumers (OSS Consumers):** Organizations that are primarily consumers of open source projects, models, or training data sets. Looking for support with evaluation, assurance, and open source vendor management services.
 - **Open Source Software Distributors (OSS Distributors):** Organizations that bundle or distribute open source software downstream to their customers. They are looking at support with security assurance, open source risk & compliance assessments.
 
-### Sellers
+#### Sellers
 - **Open Source Assurance Service Provider (OASP):** Provide validation, verification, attestation, and support services. Set up dedicated remediated pipelines for organizations and open source security labs. Validate open source projects, open source models, open source training datasets, and offer security verification and assurance services to organizations.
 - **Security Experts & Freelancers:** Employment opportunities for Seurity experts and freelancer with OASPs offering open source security assessments and support services.
 
-### Marketplace Operators
+#### Marketplace Operators
 
 Open Source Marketplace Operator/Consortia: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
 
-## Services Offered by OASPs on the Marketplace
+### Services Offered by OASPs on the Marketplace
 - Security Assessment & Attestation Service
 - Validation & Verification Service
 - Open Source Software (OSS) Remediation Service
@@ -53,7 +53,7 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - OSS Feature Addition
 - Trusted And Verified Open Source Software (TAVOSS) Version Support & Distribution
 
-## Marketplace Services
+### Marketplace Services
 - Sale of Open Source Software Support & Subscription Services
 - OASP Discovery Service and Open Source Vendor Management Support for Businesses
 - TAVOSS Certification Issuance for Open Source & Exchange of Verifiable Credentials
@@ -79,7 +79,7 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - Legal Protection
 
 
-## OSSVerse : Intro Video
+### OSSVerse : Intro Video
 Check out this **intro video** :octicons-video-16: that explains what OSSVerse is in less than 5 minutes:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EJJA6HYF-0I?si=iY551oTZbmJCIbrH%22" title="OSSVerse Intro Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
