@@ -1,16 +1,18 @@
-## Developer Guide
+# Developer Guide
 The developer guide is designed to help and assist Network Participants on their technical journey with step-by-step instructions for seamless integration on the network. The guide gives a complete walkthrough of the API Specifications for different open source projects such as the buyer app, oasp seller app, OSSVerse-in-a-Box. It includes resources like reference materials, code snippets, illustrative examples, and frequently asked questions (FAQs) - making it easy to understand and use.
 
 ## Business Context 
 OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platforms. It is an adaptation of ONDC and Beckn protocol for open source software service delivery. OSSVerse leverages BeSecure(BeS) for delivering open source software security assurance services. OSSVerse aims to establish an open network of OASPs for businesses that will offer trustworthy and reliable open source software assurance services. 
 
-## Business Architecture 
+### Business Architecture 
+
+![Marketplace](/docs/assets/images/diagrams/components-highlevel.png)
 
 ### Marketplace Services
 
 1.2.1.1 Onboarding services :
    
-   ### **Account Creation:**
+### **Account Creation:**
    
    **OASP**
    
@@ -33,11 +35,19 @@ OSSVerse is an open source Marketplace. It is conceptualized as an eco system pr
     Searching for an OASP for an identified open source component for certification (On Demand)
 
 ## OASP Services
+ 
+1. [**Assurance & Assessment Service**](#1.-assurance-&-assessment-service:)
+2. [**Validation & Verification Service**](#Validation-&-Verification-Service)
+3. [**Remediation Service**](###3.remediation-service)
+4. [**Pentesting Service**](#Pentesting-Service)
+5. [**Feature Addition**](###Feature-Addition)
+6. [**TAVOSS Version & Certification Service**](###TAVOSS-Version-&-Certification-Service)
 
-### **1. Assurance & Assessment Service** 
+   
+### **1. Assurance & Assessment Service:** 
 Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. 
 
-**Assurance Levels & Services**
+**1.1 Assurance Levels & Services**
 
 Based on the depth and scope of the assessment required, different assurance levels are offered, each encompassing specific checks and activities:
 
@@ -49,7 +59,7 @@ Based on the depth and scope of the assessment required, different assurance lev
 | 3              | Comprehensive Assurance                                               | Everything in Standard (including proof of attestation) + Dynamic and manual security review          | - Dynamic application security testing (if applicable) <br> - Expert code review (optional) <br>- Fuzzing  |
 | 4              | Domain-Specific Assurance                                          | Everything in Comprehensive (including proof of attestation) + Industry-specific safety and security checks  | - Adherence to e.g. ISO 26262 and other domain specific standards. <br> - Hardware-in-the-loop (HIL) testing. <br> - Fuzzing and symbolic execution. |
 
-**Open-Source Software (OSS) Assurance Service Checklist**
+**1.2 Open-Source Software (OSS) Assurance Service Checklist**
 
 This checklist outlines the key steps involved in assessing the security, quality, and compliance of open-source software, especially in the automotive domain.
 
@@ -83,16 +93,38 @@ This checklist outlines the key steps involved in assessing the security, qualit
 
 **Note:**  Playbook names are provided in a generic way to emphasize their reusability across different projects. The actual playbook implementation would need to handle project-specific configurations and inputs. 
 
-### 2. **Validation & Verification Service** 
-
+### 2. **Validation & Verification Service**:
 (validated & verify if attestation has been done in line with the acceptable OSSVerse OASP Assessment Standard)
 
       1. Check BeS Environments (Exists/Linting)
       2. Check Playbooks w.rt each Check part of Assessment claimed.
       3. OSAR(Open source assessment/attestation Report) updated with Proof of Verfication & Validation as evidence to be shared (This could be inline with an accept standard like Attestation standard like CycloneDX Attestation standard)
 
-3. **Remediation Service**:
-4. **Pentesting Service**:
-5. **Feature Addition**:
-6. **TAVOSS Version & Certification Service**: (Certification with or without/Distribution?/hosting?)
+### 3. **Remediation Service**:
+### 4. **Pentesting Service**:
+### 5. **Feature Addition**:
+### 6. **TAVOSS Version & Certification Service**: (Certification with or without/Distribution?/hosting?)
+  
+## **Business Support Services**
+
+## Technical Architecture
+
+## Communication between BeSlab & OSSVerse
+
+## OSSVerse as A BAP/BG/Open Network Registry
+
+![Component Diagram](/docs/images/component-diagram.png)
+
+## OASP as BPP 
+
+  Extending BeSLab as a BPP
+
+## BeS : Establish provenance & presentation of Proofs
+  
+## BeS : OSAR 
+
+
+
+
+
 
