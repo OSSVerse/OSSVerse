@@ -1,0 +1,18 @@
+@startuml
+
+skin rose
+
+left to right direction
+
+component [OSSVerse \n(Buyer Portal)] as ossverse
+component [OSSVerse Managed Open Network] as network
+component [OASP \n (Seller)] as oasp1
+component [OASP \n (Seller)] as oasp2
+component [OASP \n (Seller)] as oasp3
+
+ossverse --> network
+network --> oasp1
+network --> oasp2
+network --> oasp3
+
+@enduml

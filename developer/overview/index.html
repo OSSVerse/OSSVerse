@@ -16,7 +16,7 @@
     
     
       
-        <title>Overview - OSSVerse</title>
+        <title>Developer Guide - OSSVerse</title>
       
     
     
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              Developer Guide
             
           </span>
         </div>
@@ -528,6 +528,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -536,30 +538,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#developer-guide" class="md-nav__link">
-    Developer Guide
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#business-context" class="md-nav__link">
     Business Context
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
+    <nav class="md-nav" aria-label="Business Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#business-architecture" class="md-nav__link">
     Business Architecture
   </a>
   
-    <nav class="md-nav" aria-label="Business Architecture">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
   <a href="#marketplace-services" class="md-nav__link">
     Marketplace Services
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#account-creation" class="md-nav__link">
+    Account Creation:
   </a>
   
 </li>
@@ -579,20 +581,97 @@
         
           <li class="md-nav__item">
   <a href="#1-assurance-assessment-service" class="md-nav__link">
-    1. Assurance &amp; Assessment Service
+    1. Assurance &amp; Assessment Service:
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#2-validation-verification-service" class="md-nav__link">
-    2. Validation &amp; Verification Service
+    2. Validation &amp; Verification Service:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-remediation-service" class="md-nav__link">
+    3. Remediation Service:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-pentesting-service" class="md-nav__link">
+    4. Pentesting Service:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-feature-addition" class="md-nav__link">
+    5. Feature Addition:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-tavoss-version-certification-service-certification-with-or-withoutdistributionhosting" class="md-nav__link">
+    6. TAVOSS Version &amp; Certification Service: (Certification with or without/Distribution?/hosting?)
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-support-services" class="md-nav__link">
+    Business Support Services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-architecture" class="md-nav__link">
+    Technical Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication-between-beslab-ossverse" class="md-nav__link">
+    Communication between BeSlab &amp; OSSVerse
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ossverse-as-a-bapbgopen-network-registry" class="md-nav__link">
+    OSSVerse as A BAP/BG/Open Network Registry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oasp-as-bpp" class="md-nav__link">
+    OASP as BPP
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bes-establish-provenance-presentation-of-proofs" class="md-nav__link">
+    BeS : Establish provenance &amp; presentation of Proofs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bes-osar" class="md-nav__link">
+    BeS : OSAR
+  </a>
   
 </li>
       
@@ -609,16 +688,15 @@
               
                 
                 
-                  <h1>Overview</h1>
-                
-                <h2 id="developer-guide">Developer Guide<a class="headerlink" href="#developer-guide" title="Permanent link"> ¶</a></h2>
+                <h1 id="developer-guide">Developer Guide<a class="headerlink" href="#developer-guide" title="Permanent link"> ¶</a></h1>
 <p>The developer guide is designed to help and assist Network Participants on their technical journey with step-by-step instructions for seamless integration on the network. The guide gives a complete walkthrough of the API Specifications for different open source projects such as the buyer app, oasp seller app, OSSVerse-in-a-Box. It includes resources like reference materials, code snippets, illustrative examples, and frequently asked questions (FAQs) - making it easy to understand and use.</p>
 <h2 id="business-context">Business Context<a class="headerlink" href="#business-context" title="Permanent link"> ¶</a></h2>
 <p>OSSVerse is an open source Marketplace. It is conceptualized as an eco system project comprising of multiple platforms. It is an adaptation of ONDC and Beckn protocol for open source software service delivery. OSSVerse leverages BeSecure(BeS) for delivering open source software security assurance services. OSSVerse aims to establish an open network of OASPs for businesses that will offer trustworthy and reliable open source software assurance services. </p>
-<h2 id="business-architecture">Business Architecture<a class="headerlink" href="#business-architecture" title="Permanent link"> ¶</a></h2>
+<h3 id="business-architecture">Business Architecture<a class="headerlink" href="#business-architecture" title="Permanent link"> ¶</a></h3>
+<p><img alt="Marketplace" src="/docs/assets/images/diagrams/components-highlevel.png" /></p>
 <h3 id="marketplace-services">Marketplace Services<a class="headerlink" href="#marketplace-services" title="Permanent link"> ¶</a></h3>
 <p>1.2.1.1 Onboarding services :</p>
-<p>### <strong>Account Creation:</strong></p>
+<h3 id="account-creation"><strong>Account Creation:</strong><a class="headerlink" href="#account-creation" title="Permanent link"> ¶</a></h3>
 <p><strong>OASP</strong></p>
 <p>Creating an OSSVerse Account &amp; OASP profile for OASP 
    The Account creation service will register OASP with OSSVerse Registry and have APIs to update the OASP profile. An OASP profile will have informed related to payments and BAP Seller App end points (e.g instance of BAP compatible adaptation of a BeSLab )</p>
@@ -636,9 +714,17 @@
 </code></pre></div>
 
 <h2 id="oasp-services">OASP Services<a class="headerlink" href="#oasp-services" title="Permanent link"> ¶</a></h2>
-<h3 id="1-assurance-assessment-service"><strong>1. Assurance &amp; Assessment Service</strong><a class="headerlink" href="#1-assurance-assessment-service" title="Permanent link"> ¶</a></h3>
+<ol>
+<li><a href="#1.-assurance-&amp;-assessment-service:"><strong>Assurance &amp; Assessment Service</strong></a></li>
+<li><a href="#Validation-&amp;-Verification-Service"><strong>Validation &amp; Verification Service</strong></a></li>
+<li><a href="###3.remediation-service"><strong>Remediation Service</strong></a></li>
+<li><a href="#Pentesting-Service"><strong>Pentesting Service</strong></a></li>
+<li><a href="###Feature-Addition"><strong>Feature Addition</strong></a></li>
+<li><a href="###TAVOSS-Version-&amp;-Certification-Service"><strong>TAVOSS Version &amp; Certification Service</strong></a></li>
+</ol>
+<h3 id="1-assurance-assessment-service"><strong>1. Assurance &amp; Assessment Service:</strong><a class="headerlink" href="#1-assurance-assessment-service" title="Permanent link"> ¶</a></h3>
 <p>Open-source software undergoes rigorous evaluation for security, compliance, and quality, culminating in comprehensive reports and proof of attestation to ensure trustworthiness. </p>
-<p><strong>Assurance Levels &amp; Services</strong></p>
+<p><strong>1.1 Assurance Levels &amp; Services</strong></p>
 <p>Based on the depth and scope of the assessment required, different assurance levels are offered, each encompassing specific checks and activities:</p>
 <table>
 <thead>
@@ -682,7 +768,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Open-Source Software (OSS) Assurance Service Checklist</strong></p>
+<p><strong>1.2 Open-Source Software (OSS) Assurance Service Checklist</strong></p>
 <p>This checklist outlines the key steps involved in assessing the security, quality, and compliance of open-source software, especially in the automotive domain.</p>
 <p><strong>1.2.1 Standard Checks</strong></p>
 <table>
@@ -816,19 +902,26 @@
 </tbody>
 </table>
 <p><strong>Note:</strong>  Playbook names are provided in a generic way to emphasize their reusability across different projects. The actual playbook implementation would need to handle project-specific configurations and inputs. </p>
-<h3 id="2-validation-verification-service">2. <strong>Validation &amp; Verification Service</strong><a class="headerlink" href="#2-validation-verification-service" title="Permanent link"> ¶</a></h3>
+<h3 id="2-validation-verification-service">2. <strong>Validation &amp; Verification Service</strong>:<a class="headerlink" href="#2-validation-verification-service" title="Permanent link"> ¶</a></h3>
 <p>(validated &amp; verify if attestation has been done in line with the acceptable OSSVerse OASP Assessment Standard)</p>
 <div class="codehilite"><pre><span></span><code>  1. Check BeS Environments (Exists/Linting)
   2. Check Playbooks w.rt each Check part of Assessment claimed.
   3. OSAR(Open source assessment/attestation Report) updated with Proof of Verfication &amp; Validation as evidence to be shared (This could be inline with an accept standard like Attestation standard like CycloneDX Attestation standard)
 </code></pre></div>
 
-<ol>
-<li><strong>Remediation Service</strong>:</li>
-<li><strong>Pentesting Service</strong>:</li>
-<li><strong>Feature Addition</strong>:</li>
-<li><strong>TAVOSS Version &amp; Certification Service</strong>: (Certification with or without/Distribution?/hosting?)</li>
-</ol>
+<h3 id="3-remediation-service">3. <strong>Remediation Service</strong>:<a class="headerlink" href="#3-remediation-service" title="Permanent link"> ¶</a></h3>
+<h3 id="4-pentesting-service">4. <strong>Pentesting Service</strong>:<a class="headerlink" href="#4-pentesting-service" title="Permanent link"> ¶</a></h3>
+<h3 id="5-feature-addition">5. <strong>Feature Addition</strong>:<a class="headerlink" href="#5-feature-addition" title="Permanent link"> ¶</a></h3>
+<h3 id="6-tavoss-version-certification-service-certification-with-or-withoutdistributionhosting">6. <strong>TAVOSS Version &amp; Certification Service</strong>: (Certification with or without/Distribution?/hosting?)<a class="headerlink" href="#6-tavoss-version-certification-service-certification-with-or-withoutdistributionhosting" title="Permanent link"> ¶</a></h3>
+<h2 id="business-support-services"><strong>Business Support Services</strong><a class="headerlink" href="#business-support-services" title="Permanent link"> ¶</a></h2>
+<h2 id="technical-architecture">Technical Architecture<a class="headerlink" href="#technical-architecture" title="Permanent link"> ¶</a></h2>
+<h2 id="communication-between-beslab-ossverse">Communication between BeSlab &amp; OSSVerse<a class="headerlink" href="#communication-between-beslab-ossverse" title="Permanent link"> ¶</a></h2>
+<h2 id="ossverse-as-a-bapbgopen-network-registry">OSSVerse as A BAP/BG/Open Network Registry<a class="headerlink" href="#ossverse-as-a-bapbgopen-network-registry" title="Permanent link"> ¶</a></h2>
+<p><img alt="Component Diagram" src="/docs/images/component-diagram.png" /></p>
+<h2 id="oasp-as-bpp">OASP as BPP<a class="headerlink" href="#oasp-as-bpp" title="Permanent link"> ¶</a></h2>
+<p>Extending BeSLab as a BPP</p>
+<h2 id="bes-establish-provenance-presentation-of-proofs">BeS : Establish provenance &amp; presentation of Proofs<a class="headerlink" href="#bes-establish-provenance-presentation-of-proofs" title="Permanent link"> ¶</a></h2>
+<h2 id="bes-osar">BeS : OSAR<a class="headerlink" href="#bes-osar" title="Permanent link"> ¶</a></h2>
                 
               
               
