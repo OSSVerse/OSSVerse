@@ -138,7 +138,6 @@ nav:
   - Home: index.md
   - Platform:
     - OSSVerse: "concepts/overview.md"
-    - Why OSSVerse?: "concepts/why-ossverse.md"
     - Participants:
       - Seller:
         - OASP: "concepts/oss-assurance-provider.md"
@@ -147,18 +146,18 @@ nav:
         - OSS Consumer: "concepts/oss-consumer.md"
         - OSS Distributor: "concepts/oss-distributor.md"
       - Marketplace Operator: "concepts/ossverse-operator.md"
-  - How To Join:
-    - Sellers (OASP): "how-to-join/oss-assurance-provider.md"
-    - Buyers (Business): "how-to-join/bes-lab.md"
-  - FAQ: "concepts/faq.md"
+#  - How To Join:
+#    - Sellers (OASP): "how-to-join/oss-assurance-provider.md"
+#    - Buyers (Business): "how-to-join/bes-lab.md"
+#  - FAQ: "concepts/faq.md"
   - Developer:
-    - Getting Started: "developer/overview.md"
-    - Tech Stack: "developer/tech-stack.md" 
-    - Architecture: "developer/target-architecture.md"
+#    - Getting Started: "developer/overview.md"
+#    - Tech Stack: "developer/tech-stack.md" 
+#    - Architecture: "developer/target-architecture.md"
     - Projects: "developer/projects.md"
-    - API Reference: 
-      - Buyer App: "developer/api-reference/ossverse-buyer-app.md"
-      - OASP Seller App: "developer/api-reference/oasp-seller-app.md"
-    - OSSVerse-in-a-Box: "developer/ossverse-in-a-box.md"
-  - Community:
-    - Overview: "community/index.md"
+#    - API Reference: 
+#      - Buyer App: "developer/api-reference/ossverse-buyer-app.md"
+#      - OASP Seller App: "developer/api-reference/oasp-seller-app.md"
+#    - OSSVerse-In-A-Box: "developer/ossverse-in-a-box.md"
+#  - Community:
+#    - Overview: "community/index.md"

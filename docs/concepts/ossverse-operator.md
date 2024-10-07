@@ -22,4 +22,11 @@ Role and Responsibilities:
 
 7. **Community Building**: Often, such platforms also work towards building a community around their marketplace, offering forums, resources, and events that help both consumers and service providers to network, share knowledge, and stay updated on industry trends.
 
-In summary, the role of marketplace operator in this context is multifaceted, focusing on facilitating transactions, ensuring quality and integrity, supporting users, and complying with legal requirements, all while fostering a community that promotes the growth and security of open source software.
+**Open Source Marketplace Operator/Consortia**: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
+
+### Marketplace Services
+- Sale of Open Source Software Support & Subscription Services
+- OASP Discovery Service and Open Source Vendor Management Support for Businesses
+- TAVOSS Certification Issuance for Open Source & Exchange of Verifiable Credentials
+- OSS Security Lab Setup and Support Services for OASPs
+- OASP License Issuance
