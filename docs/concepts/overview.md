@@ -27,7 +27,7 @@ A trustworthy marketplace for Open Source Assurance Service Providers (OASP) bac
 
 **Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
 
-![Marketplace](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/marketplace.png))
+![Marketplace](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/marketplace.png)
 
 
 ### Network Participants
