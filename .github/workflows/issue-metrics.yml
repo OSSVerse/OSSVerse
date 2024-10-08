@@ -32,7 +32,7 @@ jobs:
         uses: github/issue-metrics@v3
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SEARCH_QUERY: 'OSSVerse:bananth2008/repo is:issue created:2024-10-01..2024-10-30 -reason:"not planned"'
+          SEARCH_QUERY: 'OSSVerse:bananth2008/repo is:issue created:2024-10-01..2024-10-30 '
 
       - name: Create issue
         uses: peter-evans/create-issue-from-file@v5
