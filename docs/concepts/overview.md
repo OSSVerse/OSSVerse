@@ -1,6 +1,6 @@
 # OSSVerse: A Trusted Marketplace for Open Source Software Services
 
-OSSVerse is a revolutionary platform designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
+OSSVerse is a revolutionary open network designed to connect businesses with reliable open source software service providers. Imagine an ecosystem where you can easily find, evaluate, and procure trusted open source solutions. That's the vision behind OSSVerse.
 
 ## Why an Open Source Marketplace?
 The widespread adoption of Open Source Software (OSS) across industries has brought immense innovation but also unique security challenges. One of the primary barriers to OSS adoption is the lack of trust. Given the vastness of the open source ecosystem, many organizations lack internal expertise or find it difficult to maintain dedicated teams to effectively evaluate, assess, and remediate open source components. Additionally, the fragmented open source vendor landscape and the complexities of managing multiple vendor support subscriptions have created a demand for external services such as Open Source Assurance Service Providers (OASP).
