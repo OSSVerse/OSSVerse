@@ -53,6 +53,8 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - OSS Feature Addition
 - Trusted And Verified Open Source Software (TAVOSS) Version Support & Distribution
 
+![OASP Services](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/oaspservices.png)
+
 ### Marketplace Services
 - Sale of Open Source Software Support & Subscription Services
 - OASP Discovery Service and Open Source Vendor Management Support for Businesses
