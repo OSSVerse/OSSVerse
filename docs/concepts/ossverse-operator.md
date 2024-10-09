@@ -1,10 +1,10 @@
-# OSSVerse Marketplace Operator
+# OSSVerse Marketplace Operators
 
 The marketplace operator, in the context of OSSVerse that connects open source software consumers (buyers) with open source software assurance service providers (sellers), serves as a facilitator and intermediary to ensure the smooth functioning of transactions and interactions between these two groups. 
 
 OSSVerse marketplace provides a digital venue where open source software consumers can find, evaluate, and engage services that offer assurance, such as security audits, compliance checks, and quality assessments, for open source software. The operator does not own the services being offered but creates a space where service providers can list their offerings and consumers can browse through them to find the services that best match their needs.
 
-**OSSVerse Marketplace Operator**: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
+**OSSVerse Marketplace Operators Consortia**: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
 
 ### Marketplace Services
 - Sale of Open Source Software Support & Subscription Services
