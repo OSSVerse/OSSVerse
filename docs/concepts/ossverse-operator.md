@@ -1,8 +1,19 @@
 # OSSVerse Marketplace Operator
 
-The marketplace operator, in the context of OSSVerse that connects open source software consumers (buyers) with open source software assurance service providers (sellers), serves as a facilitator and intermediary to ensure the smooth functioning of transactions and interactions between these two groups. The role and responsibilities of such an operator can be detailed as follows:
+The marketplace operator, in the context of OSSVerse that connects open source software consumers (buyers) with open source software assurance service providers (sellers), serves as a facilitator and intermediary to ensure the smooth functioning of transactions and interactions between these two groups. 
 
-OSSVerse marketplace operator is the role responsible for the platform that provides a digital venue where open source software consumers can find, evaluate, and engage services that offer assurance, such as security audits, compliance checks, and quality assessments, for open source software. The operator does not own the services being offered but creates a space where service providers can list their offerings and consumers can browse through them to find the services that best match their needs.
+OSSVerse marketplace provides a digital venue where open source software consumers can find, evaluate, and engage services that offer assurance, such as security audits, compliance checks, and quality assessments, for open source software. The operator does not own the services being offered but creates a space where service providers can list their offerings and consumers can browse through them to find the services that best match their needs.
+
+**Open Source Marketplace Operator/Consortia**: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
+
+### Marketplace Services
+- Sale of Open Source Software Support & Subscription Services
+- OASP Discovery Service and Open Source Vendor Management Support for Businesses
+- TAVOSS Certification Issuance for Open Source & Exchange of Verifiable Credentials
+- OSS Security Lab Setup and Support Services for OASPs
+- OASP License Issuance
+
+![Marketplace Services](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/MarketplaceServices.png)
 
 Role and Responsibilities:
 
@@ -22,11 +33,4 @@ Role and Responsibilities:
 
 7. **Community Building**: Often, such platforms also work towards building a community around their marketplace, offering forums, resources, and events that help both consumers and service providers to network, share knowledge, and stay updated on industry trends.
 
-**Open Source Marketplace Operator/Consortia**: Deploys people resources to maintain and operate the marketplace and is responsible for the marketplace's governance.
 
-### Marketplace Services
-- Sale of Open Source Software Support & Subscription Services
-- OASP Discovery Service and Open Source Vendor Management Support for Businesses
-- TAVOSS Certification Issuance for Open Source & Exchange of Verifiable Credentials
-- OSS Security Lab Setup and Support Services for OASPs
-- OASP License Issuance
