@@ -10,4 +10,5 @@
 - OSS Pentesting Service
 - OSS Feature Addition
 - Trusted And Verified Open Source Software (TAVOSS) Version Support & Distribution
-  
+
+  ![OASP Services](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/OASPServices.png)

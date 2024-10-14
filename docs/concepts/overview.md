@@ -27,8 +27,8 @@ A trustworthy marketplace for Open Source Assurance Service Providers (OASP) bac
 
 **Beckn and Be-Secure Integration**: Built on the Beckn protocols and leveraging Be-Secure, OSSVerse enables seamless and efficient transactions within the open source software ecosystem while providing robust security assurance services.
 
+![Marketplace](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/marketplace-illustration.png)
 
-![Marketplace](/docs/assets/images/diagrams/marketplace.png)
 
 ### Network Participants
 
@@ -53,12 +53,16 @@ Open Source Marketplace Operator/Consortia: Deploys people resources to maintain
 - OSS Feature Addition
 - Trusted And Verified Open Source Software (TAVOSS) Version Support & Distribution
 
+![OASP Services](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/OASPServices.png)
+
 ### Marketplace Services
 - Sale of Open Source Software Support & Subscription Services
 - OASP Discovery Service and Open Source Vendor Management Support for Businesses
 - TAVOSS Certification Issuance for Open Source & Exchange of Verifiable Credentials
 - OSS Security Lab Setup and Support Services for OASPs
 - OASP License Issuance
+
+![Marketplace Services](https://raw.githubusercontent.com/OSSVerse/OSSVerse/main/docs/assets/images/diagrams/MarketplaceServices.png)
 
 ### Benefits for Businesses
 

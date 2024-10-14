@@ -136,7 +136,7 @@ markdown_extensions:
 #===================================================================================#
 nav:
   - Home: index.md
-  - Platform:
+  - OpenNetwork:
     - OSSVerse: "concepts/overview.md"
     - Participants:
       - Seller:
